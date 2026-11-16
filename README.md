@@ -13,7 +13,7 @@
 | 查詢操作 | `#query` | 12 題、可編輯 SQL、預期／實際結果、原生 SQLite 錯誤與中文提示 |
 | 結果比較 | `#compare` | 原版／修改範例／我的 SQL、增減列、排序與欄位差異、原因說明 |
 
-48 筆教學病例的詞彙與欄位參考中國醫門診教學病例，方劑組成取自衛福部文件。網站以這份固定資料呈現病例分布、方劑使用次數與查詢結果。
+從中國醫門診教學病例 819 筆中，使用種子 20261117 不重複隨機抽取 100 筆。保留來源證型、症狀與所有方劑名稱；來源證型清單第一項為查詢主證，其餘為次證。十方藥材組成依衛福部文件整理，其餘方劑收錄來源名稱。
 
 ## 本機執行
 
@@ -33,17 +33,19 @@ npm run preview
 
 ## 固定資料
 
+抽樣使用 Python `random.Random(20261117).sample(..., 100)`，結果保存在 `src/sampled-cases.json`，網站載入同一份固定樣本。`scripts/sample-cases.py` 接受來源 JSON 路徑，可重現抽樣。病例編號依抽樣順序編排，前十筆樣本也涵蓋不同證型。
+
 | 資料表 | 筆數 |
 | --- | ---: |
-| clinical_case | 48 |
-| syndrome | 8 |
-| case_syndrome | 54 |
-| symptom | 24 |
-| case_symptom | 144 |
-| formula | 10 |
+| clinical_case | 100 |
+| syndrome | 34 |
+| case_syndrome | 123 |
+| symptom | 908 |
+| case_symptom | 1459 |
+| formula | 110 |
 | herb | 49 |
 | formula_herb | 86 |
-| case_formula | 46 |
+| case_formula | 208 |
 
 九表種子、欄位字典與衍生統計共用 `src/data.js`。題庫、原版／修改版 SQL 與逐題說明在 `src/queries.js`。每次執行都從相同 SQLite 位元資料重建，並開啟 `query_only`。運算在 Web Worker 中進行；超過 8 秒可自動停止，亦可手動取消。結果最多 2,000 列，一次最多八組結果，畫面顯示最後一組。超過限制時會顯示錯誤與調整查詢的提示。
 

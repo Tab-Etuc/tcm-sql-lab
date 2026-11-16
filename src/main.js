@@ -12,9 +12,9 @@ import {overview,databaseView,dictionary,erd,queryView,compareView,questionList,
 import {createEditor,setEditorDoc} from './editor.js';
 
 const $=s=>document.querySelector(s);
-const storageKey='tcm-sql-lab-v1';
+const storageKey='tcm-sql-lab-sample100-v1';
 let saved={};try{saved=JSON.parse(localStorage.getItem(storageKey)||'{}');}catch{}
-const state={route:'case',qid:'Q02',selectedCase:'CASE-003',selectedTable:'clinical_case',dictionaryTab:'fields',resultTab:'actual',compareMode:'example',diffOnly:false,drafts:saved.drafts??{},completed:new Set((saved.completed??[]).filter(id=>questions.some(q=>q.id===id))),results:new Map(),baselines:new Map(),comparison:null,ready:false,running:false,renderId:0,expanded:new Set()};
+const state={route:'case',qid:'Q02',selectedCase:'CASE-051',selectedTable:'clinical_case',dictionaryTab:'fields',resultTab:'actual',compareMode:'example',diffOnly:false,drafts:saved.drafts??{},completed:new Set((saved.completed??[]).filter(id=>questions.some(q=>q.id===id))),results:new Map(),baselines:new Map(),comparison:null,ready:false,running:false,renderId:0,expanded:new Set()};
 let editor,toastTimer,customQuestion;
 const compactNavigation=window.matchMedia('(max-width:1100px)');
 function syncNavigation(){
@@ -194,6 +194,7 @@ document.addEventListener('click',async ev=>{
 document.addEventListener('change',ev=>{
  const el=ev.target;
  if(el.id==='case-select'){state.selectedCase=el.value;$('#main').innerHTML=overview(state.selectedCase);$('#case-select').focus({preventScroll:true});$('.clinical-trace').classList.add('trace-updated');}
+ if(el.id==='case-formula-select'){$('#main').innerHTML=overview(state.selectedCase,el.value);$('#case-formula-select')?.focus({preventScroll:true});}
  if(el.id==='table-select')selectTable(el.value);
  if(el.id==='question-select')navigate(`query/${el.value}`);
  if(el.id==='compare-select')navigate(`compare/${el.value}`);

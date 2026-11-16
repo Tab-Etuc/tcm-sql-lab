@@ -1,6 +1,6 @@
 import {writeFileSync} from 'node:fs';
 import initSqlJs from 'sql.js';
-import {dataset,totals,schema,sources,createDatabase} from '../src/data.js';
+import {dataset,totals,schema,sources,createDatabase,featuredCases} from '../src/data.js';
 import {questions} from '../src/queries.js';
 
 const SQL=await initSqlJs(),db=createDatabase(SQL);
@@ -8,7 +8,7 @@ const mdCell=v=>String(v??'NULL').replaceAll('|','\\|').replaceAll('\n',' ');
 const mdTable=(headers,rows)=>[headers,headers.map(()=>'---'),...rows].map(row=>`| ${row.map(mdCell).join(' | ')} |`).join('\n');
 const run=sql=>{const stmt=db.prepare(sql);try{const result={columns:stmt.getColumnNames(),values:[]};while(stmt.step())result.values.push(stmt.get());return result;}finally{stmt.free();}};
 const example=(sql,expected)=>{const r=run(sql);if(r.values.length!==expected)throw new Error('Document query count mismatch');return `\`\`\`sql\n${sql}\n\`\`\`\n\n結果：**${r.values.length} 列**。${r.values.length>5?'以下列出前 5 列；完整結果可在網站執行查看。':''}\n\n${mdTable(r.columns,r.values.slice(0,5))}${r.values.length?'':'\n\n此查詢得到 0 列。'}`;};
-const cases=['CASE-003','CASE-016','CASE-035','CASE-011'].map(id=>{
+const cases=featuredCases.map(id=>{
  const c=dataset.clinical_case.find(x=>x.case_id===id);
  const syndromes=dataset.case_syndrome.filter(x=>x.case_id===id).map(x=>`${dataset.syndrome.find(s=>s.syndrome_id===x.syndrome_id).syndrome_name}（${x.syndrome_role==='primary'?'主':'次'}證）`).join('、');
  const rx=dataset.case_formula.find(x=>x.case_id===id);
@@ -24,7 +24,7 @@ const doc=`# 中醫處方實驗室 — 資料庫設計與查詢說明
 
 中醫教學診所需要跨病例整理主訴、舌脈、症狀、證型與用方。醫師查找相同證型的病例，研究助理統計各證型與方劑的使用情形，學生透過修改 SQL 理解關聯查詢與結果差異。
 
-病例資料依中國醫門診教學病例的欄位與詞彙編成 48 筆教學案例；方劑與藥材組成依衛福部文件整理。
+病例資料從中國醫門診教學病例 819 筆中，以固定種子 20261117 不重複隨機抽取 100 筆；方劑與藥材組成依衛福部文件整理。
 
 ## 資料庫設計
 
@@ -72,10 +72,10 @@ ${sources.map(s=>`- ${s.url?`[${s.title}](${s.url})`:s.title}：${s.detail}`).jo
 ## 課堂說明要點
 
 1. 說明五張主表與四張中介表，以及複合主鍵、外來鍵的用途。
-2. 用 Q03 解釋 present、absent、未記載，對照 9 與 13 筆結果。
-3. 用 Q04 解釋 48 份病例為何形成 54 列證型關聯。
+2. 用 Q03 解釋 present、absent、未記載，對照 18 與 30 筆結果。
+3. 用 Q04 解釋 100 份病例為何形成 123 列證型關聯。
 4. 用 Q06 說明 WHERE 篩選資料列、HAVING 篩選群組。
-5. 用 Q10 的兩個 0 → 1 儲存格，解釋 COUNT(欄位) 與 COUNT(*)。
+5. 用 Q10 的三個 0 → 1 儲存格，解釋 COUNT(欄位) 與 COUNT(*)。
 `;
 writeFileSync('public/tcm_sql_design_spec.md',doc);
 

@@ -1,0 +1,7663 @@
+{
+  "sampling": {
+    "method": "simple random sample without replacement",
+    "seed": 20261117,
+    "population": 819,
+    "count": 100,
+    "source_sha256": "198009934933747e2e24fa347b42b78345413a5087f0cc7db59140b3bc5607d1",
+    "primary_rule": "來源證型清單第一項作為查詢主證，其餘作為次證",
+    "age_rule": "僅取病程開頭的明確年齡，其餘標示未記載"
+  },
+  "cases": [
+    {
+      "case_id": "CASE-001",
+      "age_group": "18–29",
+      "diagnosis": "膀胱過動症",
+      "chief_complaint": "頻尿已1年多",
+      "present_illness": "問診記錄：頻尿、失眠、入睡困難、夜尿、緊張、焦慮、飢飽易打嗝、納可、眠差、不易入睡、易緊張焦慮、大便平、小便清長、尿頻(1hr/次)、緊繃與解不乾淨感、色正常、夜尿1次。",
+      "tongue": "舌紅稍淡、尖紅、苔薄白、邊少、朱點、有津、津沫",
+      "pulse": "右濡軟、左稍濡寸微滑、右脈濡軟",
+      "patterns": [
+        "肝氣鬱結"
+      ],
+      "formulas": [
+        "真武湯",
+        "加味逍遙散"
+      ],
+      "observations": [
+        {
+          "name": "頻尿",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "焦慮",
+          "status": "present"
+        },
+        {
+          "name": "飢飽易打嗝",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "不易入睡",
+          "status": "present"
+        },
+        {
+          "name": "易緊張焦慮",
+          "status": "present"
+        },
+        {
+          "name": "大便平",
+          "status": "present"
+        },
+        {
+          "name": "小便清長",
+          "status": "present"
+        },
+        {
+          "name": "尿頻(1hr/次)",
+          "status": "present"
+        },
+        {
+          "name": "緊繃與解不乾淨感",
+          "status": "present"
+        },
+        {
+          "name": "色正常",
+          "status": "present"
+        },
+        {
+          "name": "夜尿1次",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-002",
+      "age_group": "60+",
+      "diagnosis": "發聲困難",
+      "chief_complaint": "聲音沙啞有少量痰近一個月",
+      "present_illness": "問診記錄：聲音沙啞、口苦、口乾、夜尿、排便一日一行但是化療完後第3-4天會腹痛腹瀉、口苦口乾咽乾、眠可、食欲可、精神易疲倦、僅發作一日之後又恢復正常、夜尿一次。明確否認失眠。",
+      "tongue": "舌色偏紅、舌瘦、苔薄白中根偏黃",
+      "pulse": "左右脈弦澀、雙脈弦澀",
+      "patterns": [
+        "肺腎陰虛"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "聲音沙啞",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "排便一日一行但是化療完後第3-4天會腹痛腹瀉",
+          "status": "present"
+        },
+        {
+          "name": "口苦口乾咽乾",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "食欲可",
+          "status": "present"
+        },
+        {
+          "name": "精神易疲倦",
+          "status": "present"
+        },
+        {
+          "name": "僅發作一日之後又恢復正常",
+          "status": "present"
+        },
+        {
+          "name": "夜尿一次",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-003",
+      "age_group": "未記載",
+      "diagnosis": "子宮平滑肌瘤",
+      "chief_complaint": "經血量多半年,經痛2年",
+      "present_illness": "問診記錄：腹痛、壓力大、腰痠、腹痛 (部位:下腹 性質:持續悶痛)、平常、工作壓力、腰酸、大便正常、小便正常、經血量多半年,經痛2年。明確否認失眠。",
+      "tongue": "舌淡紅、邊有齒痕、苔薄白、略暗",
+      "pulse": "沉弱、左關弦、脈沉弱",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "桂枝茯苓丸"
+      ],
+      "observations": [
+        {
+          "name": "腹痛",
+          "status": "present"
+        },
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "腹痛 (部位:下腹 性質:持續悶痛)",
+          "status": "present"
+        },
+        {
+          "name": "平常",
+          "status": "present"
+        },
+        {
+          "name": "工作壓力",
+          "status": "present"
+        },
+        {
+          "name": "腰酸",
+          "status": "present"
+        },
+        {
+          "name": "大便正常",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "經血量多半年,經痛2年",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-004",
+      "age_group": "未記載",
+      "diagnosis": "功能性消化不良",
+      "chief_complaint": "胃嘈嘈已一年",
+      "present_illness": "問診記錄：眼乾、打噴嚏、胃嘈雜、腹脹、頻尿、目乾澀、晨起吹風偶噴嚏、進食可緩解、食後脹氣、脹在肚臍上、納可、眠可、入睡可、也坦言、問診發現病人正襟危坐、講話一板一眼、大便1日1行、質軟不硬不散、白天頻尿、解尿不暢、胃嘈嘈一年。明確否認頭痛、胸悶、耳鳴、失眠。",
+      "tongue": "舌淡紅、苔白、中根厚膩",
+      "pulse": "未記載",
+      "patterns": [
+        "肝脾不和"
+      ],
+      "formulas": [
+        "參苓白朮散",
+        "一貫煎"
+      ],
+      "observations": [
+        {
+          "name": "眼乾",
+          "status": "present"
+        },
+        {
+          "name": "打噴嚏",
+          "status": "present"
+        },
+        {
+          "name": "胃嘈雜",
+          "status": "present"
+        },
+        {
+          "name": "腹脹",
+          "status": "present"
+        },
+        {
+          "name": "頻尿",
+          "status": "present"
+        },
+        {
+          "name": "目乾澀",
+          "status": "present"
+        },
+        {
+          "name": "晨起吹風偶噴嚏",
+          "status": "present"
+        },
+        {
+          "name": "進食可緩解",
+          "status": "present"
+        },
+        {
+          "name": "食後脹氣",
+          "status": "present"
+        },
+        {
+          "name": "脹在肚臍上",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "入睡可",
+          "status": "present"
+        },
+        {
+          "name": "也坦言",
+          "status": "present"
+        },
+        {
+          "name": "問診發現病人正襟危坐",
+          "status": "present"
+        },
+        {
+          "name": "講話一板一眼",
+          "status": "present"
+        },
+        {
+          "name": "大便1日1行",
+          "status": "present"
+        },
+        {
+          "name": "質軟不硬不散",
+          "status": "present"
+        },
+        {
+          "name": "白天頻尿",
+          "status": "present"
+        },
+        {
+          "name": "解尿不暢",
+          "status": "present"
+        },
+        {
+          "name": "胃嘈嘈一年",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "absent"
+        },
+        {
+          "name": "胸悶",
+          "status": "absent"
+        },
+        {
+          "name": "耳鳴",
+          "status": "absent"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-005",
+      "age_group": "未記載",
+      "diagnosis": "末期腎疾病",
+      "chief_complaint": "睡眠差嚴重 皮膚癢 腰痠 已數月",
+      "present_illness": "問診記錄：失眠、皮膚搔癢、腰痠、面色晦暗、口臭、多汗、眼乾、口乾、打噴嚏、咳痰、胸悶、心悸、喘、淺眠、稍多汗、項緊、目乾澀、可解渴、鼻竇炎、晨起偶噴嚏、白涕、咳甚、痰多、可以咳出、色白、偶胸悶、運動喘 (舌下錠)、食慾好、口乾喜飲、入睡難>1hr 眠淺難再入眠、偶夢、記得內容、身體不適、壓力較大、大便1日2行、成型、偏硬、小便少、晨尿100ML。明確否認腹脹。",
+      "tongue": "舌暗紅、苔膩、右側邊無、苔",
+      "pulse": "右濡軟稍滑稍數、寸稍縮、右脈滑關滑數、尺細數、左shunt",
+      "patterns": [
+        "腎氣虛"
+      ],
+      "formulas": [
+        "酸棗仁湯",
+        "苓甘薑味辛夏仁湯"
+      ],
+      "observations": [
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "皮膚搔癢",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "面色晦暗",
+          "status": "present"
+        },
+        {
+          "name": "口臭",
+          "status": "present"
+        },
+        {
+          "name": "多汗",
+          "status": "present"
+        },
+        {
+          "name": "眼乾",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "打噴嚏",
+          "status": "present"
+        },
+        {
+          "name": "咳痰",
+          "status": "present"
+        },
+        {
+          "name": "胸悶",
+          "status": "present"
+        },
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "喘",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "稍多汗",
+          "status": "present"
+        },
+        {
+          "name": "項緊",
+          "status": "present"
+        },
+        {
+          "name": "目乾澀",
+          "status": "present"
+        },
+        {
+          "name": "可解渴",
+          "status": "present"
+        },
+        {
+          "name": "鼻竇炎",
+          "status": "present"
+        },
+        {
+          "name": "晨起偶噴嚏",
+          "status": "present"
+        },
+        {
+          "name": "白涕",
+          "status": "present"
+        },
+        {
+          "name": "咳甚",
+          "status": "present"
+        },
+        {
+          "name": "痰多",
+          "status": "present"
+        },
+        {
+          "name": "可以咳出",
+          "status": "present"
+        },
+        {
+          "name": "色白",
+          "status": "present"
+        },
+        {
+          "name": "偶胸悶",
+          "status": "present"
+        },
+        {
+          "name": "運動喘 (舌下錠)",
+          "status": "present"
+        },
+        {
+          "name": "食慾好",
+          "status": "present"
+        },
+        {
+          "name": "口乾喜飲",
+          "status": "present"
+        },
+        {
+          "name": "入睡難>1hr 眠淺難再入眠",
+          "status": "present"
+        },
+        {
+          "name": "偶夢",
+          "status": "present"
+        },
+        {
+          "name": "記得內容",
+          "status": "present"
+        },
+        {
+          "name": "身體不適",
+          "status": "present"
+        },
+        {
+          "name": "壓力較大",
+          "status": "present"
+        },
+        {
+          "name": "大便1日2行",
+          "status": "present"
+        },
+        {
+          "name": "成型",
+          "status": "present"
+        },
+        {
+          "name": "偏硬",
+          "status": "present"
+        },
+        {
+          "name": "小便少",
+          "status": "present"
+        },
+        {
+          "name": "晨尿100ML",
+          "status": "present"
+        },
+        {
+          "name": "腹脹",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-006",
+      "age_group": "未記載",
+      "diagnosis": "痛經症",
+      "chief_complaint": "經行腹痛,約十年",
+      "present_illness": "問診記錄：腹痛、噁心、嘔吐、手足冰冷、淺眠、便秘、頭暈、經期後易頭暈、自國三經痛、上班後加重、第一到四天痛、VAS約6分、偶痛到噁心嘔吐、睡眠尚可、稍淺眠、經期來前些微帶下、經色黯紅、四肢冰冷加重、止痛藥用量:每個週期約6顆、量適中、每次皆血塊多、最大有50元硬幣大、易便秘、大便2日1行、呈顆粒狀、小便正常。",
+      "tongue": "舌淡紅、苔薄白、無舌下絡脈怒張",
+      "pulse": "脈弦細、整體偏弱",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "龍膽瀉肝湯",
+        "左歸丸",
+        "天王補心丹",
+        "芍藥甘草湯"
+      ],
+      "observations": [
+        {
+          "name": "腹痛",
+          "status": "present"
+        },
+        {
+          "name": "噁心",
+          "status": "present"
+        },
+        {
+          "name": "嘔吐",
+          "status": "present"
+        },
+        {
+          "name": "手足冰冷",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "便秘",
+          "status": "present"
+        },
+        {
+          "name": "頭暈",
+          "status": "present"
+        },
+        {
+          "name": "經期後易頭暈",
+          "status": "present"
+        },
+        {
+          "name": "自國三經痛",
+          "status": "present"
+        },
+        {
+          "name": "上班後加重",
+          "status": "present"
+        },
+        {
+          "name": "第一到四天痛",
+          "status": "present"
+        },
+        {
+          "name": "VAS約6分",
+          "status": "present"
+        },
+        {
+          "name": "偶痛到噁心嘔吐",
+          "status": "present"
+        },
+        {
+          "name": "睡眠尚可",
+          "status": "present"
+        },
+        {
+          "name": "稍淺眠",
+          "status": "present"
+        },
+        {
+          "name": "經期來前些微帶下",
+          "status": "present"
+        },
+        {
+          "name": "經色黯紅",
+          "status": "present"
+        },
+        {
+          "name": "四肢冰冷加重",
+          "status": "present"
+        },
+        {
+          "name": "止痛藥用量:每個週期約6顆",
+          "status": "present"
+        },
+        {
+          "name": "量適中",
+          "status": "present"
+        },
+        {
+          "name": "每次皆血塊多",
+          "status": "present"
+        },
+        {
+          "name": "最大有50元硬幣大",
+          "status": "present"
+        },
+        {
+          "name": "易便秘",
+          "status": "present"
+        },
+        {
+          "name": "大便2日1行",
+          "status": "present"
+        },
+        {
+          "name": "呈顆粒狀",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-007",
+      "age_group": "未記載",
+      "diagnosis": "其他關節炎、非特定的失眠症",
+      "chief_complaint": "關節疼痛半年左右;眠差約七年。",
+      "present_illness": "問診記錄：失眠、腰痠、食冰、食欲平、二便平、G2P2、關節疼痛半年左右、眠差七年。",
+      "tongue": "舌偏暗、苔薄白邊瘀點",
+      "pulse": "右稍弦關數尺細/左濡寸細滑弦尺細、右稍弦關數尺細、左濡寸細滑弦尺細",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "獨活寄生湯",
+        "芍藥甘草湯"
+      ],
+      "observations": [
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "食冰",
+          "status": "present"
+        },
+        {
+          "name": "食欲平",
+          "status": "present"
+        },
+        {
+          "name": "二便平",
+          "status": "present"
+        },
+        {
+          "name": "G2P2",
+          "status": "present"
+        },
+        {
+          "name": "關節疼痛半年左右",
+          "status": "present"
+        },
+        {
+          "name": "眠差七年",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-008",
+      "age_group": "未記載",
+      "diagnosis": "月經前緊張症候群",
+      "chief_complaint": "hand sweating, hot flush and easy sweating",
+      "present_illness": "問診記錄：left hip replace operation、hand sweating, hot flush and easy sweating。",
+      "tongue": "tongue is pink and coating is thin-white",
+      "pulse": "string-like pulse、脈弦",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "加味逍遙散"
+      ],
+      "observations": [
+        {
+          "name": "left hip replace operation",
+          "status": "present"
+        },
+        {
+          "name": "hand sweating, hot flush and easy sweating",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-009",
+      "age_group": "未記載",
+      "diagnosis": "痛經症",
+      "chief_complaint": "經行腹痛,約四年",
+      "present_illness": "問診記錄：腹痛、失眠、經行腹痛、三天腹痛、夜眠差、腹痛影響睡眠、熱敷可緩、第二、第三天量較多、經前或點滴、血塊偏大、I/D:26-28/6、經色深、大便1-2日1行、小便正常。",
+      "tongue": "舌微紅、苔薄白、無舌下絡脈怒張",
+      "pulse": "脈弦、尺不足",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "少腹逐瘀湯",
+        "炙甘草湯",
+        "柴胡疏肝湯"
+      ],
+      "observations": [
+        {
+          "name": "腹痛",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "經行腹痛",
+          "status": "present"
+        },
+        {
+          "name": "三天腹痛",
+          "status": "present"
+        },
+        {
+          "name": "夜眠差",
+          "status": "present"
+        },
+        {
+          "name": "腹痛影響睡眠",
+          "status": "present"
+        },
+        {
+          "name": "熱敷可緩",
+          "status": "present"
+        },
+        {
+          "name": "第二",
+          "status": "present"
+        },
+        {
+          "name": "第三天量較多",
+          "status": "present"
+        },
+        {
+          "name": "經前或點滴",
+          "status": "present"
+        },
+        {
+          "name": "血塊偏大",
+          "status": "present"
+        },
+        {
+          "name": "I/D:26-28/6",
+          "status": "present"
+        },
+        {
+          "name": "經色深",
+          "status": "present"
+        },
+        {
+          "name": "大便1-2日1行",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-010",
+      "age_group": "未記載",
+      "diagnosis": "其他特定之肌肉疾患",
+      "chief_complaint": "right ankle pain for 3 days",
+      "present_illness": "問診記錄：邊微齒痕、清醒、略胖、白黃苔、根膩、ottwa ankle rule(+)、左沉澀、寸外浮、四診、右脈稍數、弦滑、左寸弦細數、local swelling、大便正常、小便正常、right ankle pain for 3 days。",
+      "tongue": "舌瘦色淡紅、舌偏淡紅、邊微齒痕、苔、苔白薄膩、白黃、根膩",
+      "pulse": "脈右沉弱、左沉澀、寸外浮、右脈稍數、弦滑、左寸弦細數、左脈沉澀、脈弦滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "正骨紫金丹",
+        "芍藥甘草湯"
+      ],
+      "observations": [
+        {
+          "name": "邊微齒痕",
+          "status": "present"
+        },
+        {
+          "name": "清醒",
+          "status": "present"
+        },
+        {
+          "name": "略胖",
+          "status": "present"
+        },
+        {
+          "name": "白黃苔",
+          "status": "present"
+        },
+        {
+          "name": "根膩",
+          "status": "present"
+        },
+        {
+          "name": "ottwa ankle rule(+)",
+          "status": "present"
+        },
+        {
+          "name": "左沉澀",
+          "status": "present"
+        },
+        {
+          "name": "寸外浮",
+          "status": "present"
+        },
+        {
+          "name": "四診",
+          "status": "present"
+        },
+        {
+          "name": "右脈稍數",
+          "status": "present"
+        },
+        {
+          "name": "弦滑",
+          "status": "present"
+        },
+        {
+          "name": "左寸弦細數",
+          "status": "present"
+        },
+        {
+          "name": "local swelling",
+          "status": "present"
+        },
+        {
+          "name": "大便正常",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "right ankle pain for 3 days",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-011",
+      "age_group": "未記載",
+      "diagnosis": "胃食道逆流性疾病",
+      "chief_complaint": "胸悶心悸近一周",
+      "present_illness": "問診記錄：胸悶、心悸、疲倦、口乾、腹脹、入睡困難、淺眠、緊張、大便稀軟、稍微疲倦、聽力正常、目乾或淚少、晚上睡前躺著加劇、胸悶心悸嚴重時徹夜難眠、消化不良容易腹脹、口乾不苦、食慾可、不易入睡、需使用1/4顆的助眠劑、恐懼、易緊張、Non pitting edema、一日1~2行、偏軟散、色深、近黑色、色淡黃正常。",
+      "tongue": "舌淡暗不鮮、邊齒痕、苔薄白膩",
+      "pulse": "未記載",
+      "patterns": [
+        "胃氣上逆"
+      ],
+      "formulas": [
+        "開立處方",
+        "生脈飲",
+        "香砂六君子湯",
+        "半夏瀉心湯"
+      ],
+      "observations": [
+        {
+          "name": "胸悶",
+          "status": "present"
+        },
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "疲倦",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "腹脹",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "大便稀軟",
+          "status": "present"
+        },
+        {
+          "name": "稍微疲倦",
+          "status": "present"
+        },
+        {
+          "name": "聽力正常",
+          "status": "present"
+        },
+        {
+          "name": "目乾或淚少",
+          "status": "present"
+        },
+        {
+          "name": "晚上睡前躺著加劇",
+          "status": "present"
+        },
+        {
+          "name": "胸悶心悸嚴重時徹夜難眠",
+          "status": "present"
+        },
+        {
+          "name": "消化不良容易腹脹",
+          "status": "present"
+        },
+        {
+          "name": "口乾不苦",
+          "status": "present"
+        },
+        {
+          "name": "食慾可",
+          "status": "present"
+        },
+        {
+          "name": "不易入睡",
+          "status": "present"
+        },
+        {
+          "name": "需使用1/4顆的助眠劑",
+          "status": "present"
+        },
+        {
+          "name": "恐懼",
+          "status": "present"
+        },
+        {
+          "name": "易緊張",
+          "status": "present"
+        },
+        {
+          "name": "Non pitting edema",
+          "status": "present"
+        },
+        {
+          "name": "一日1~2行",
+          "status": "present"
+        },
+        {
+          "name": "偏軟散",
+          "status": "present"
+        },
+        {
+          "name": "色深",
+          "status": "present"
+        },
+        {
+          "name": "近黑色",
+          "status": "present"
+        },
+        {
+          "name": "色淡黃正常",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-012",
+      "age_group": "未記載",
+      "diagnosis": "原發性失眠症",
+      "chief_complaint": "oral dryness, bad breathe, residual urine, acid regurgitation reduced",
+      "present_illness": "問診記錄：平常、大便正常、小便正常、oral dryness, bad breathe, residual urine, acid regurgitation reduced。",
+      "tongue": "舌淡紅、苔、薄白、苔薄白",
+      "pulse": "弦、脈弦",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "杞菊地黃丸"
+      ],
+      "observations": [
+        {
+          "name": "平常",
+          "status": "present"
+        },
+        {
+          "name": "大便正常",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "oral dryness, bad breathe, residual urine, acid regurgitation reduced",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-013",
+      "age_group": "未記載",
+      "diagnosis": "妥瑞氏症",
+      "chief_complaint": "頻繁扭頭、眨眼一個月",
+      "present_illness": "問診記錄：病人家屬說一個月前出現此症狀、偶爾會有清喉嚨和鼻擤聲音、頻繁扭頭、眨眼一個月。",
+      "tongue": "舌體紅、舌尖朱點、無齒痕、苔白膩、無舌下脈怒張",
+      "pulse": "右寸關浮細數、左寸關浮弦滑數",
+      "patterns": [
+        "肝風內動"
+      ],
+      "formulas": [
+        "桂枝湯"
+      ],
+      "observations": [
+        {
+          "name": "病人家屬說一個月前出現此症狀",
+          "status": "present"
+        },
+        {
+          "name": "偶爾會有清喉嚨和鼻擤聲音",
+          "status": "present"
+        },
+        {
+          "name": "頻繁扭頭、眨眼一個月",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-014",
+      "age_group": "50–59",
+      "diagnosis": "急性咽喉炎",
+      "chief_complaint": "今起喉嚨癢並伴隨熱痛",
+      "present_illness": "問診記錄：多汗、停經、盜汗、口渴、口苦、口乾、大便乾硬、夜尿、易流汗、自停經後盜汗、眠尚可、排便日一行、質硬解不暢、夜尿一行、今起喉嚨癢並伴隨熱痛。明確否認咳嗽。",
+      "tongue": "舌尖朱點、舌質紅、舌質齒痕、苔白膩",
+      "pulse": "右寸細澀關弦澀尺弦、左沉關弦澀尺細澀",
+      "patterns": [
+        "肺腎陰虛"
+      ],
+      "formulas": [
+        "麻子仁丸",
+        "當歸六黃湯",
+        "普濟消毒飲",
+        "白虎加人參湯",
+        "導赤散"
+      ],
+      "observations": [
+        {
+          "name": "多汗",
+          "status": "present"
+        },
+        {
+          "name": "停經",
+          "status": "present"
+        },
+        {
+          "name": "盜汗",
+          "status": "present"
+        },
+        {
+          "name": "口渴",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "大便乾硬",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "易流汗",
+          "status": "present"
+        },
+        {
+          "name": "自停經後盜汗",
+          "status": "present"
+        },
+        {
+          "name": "眠尚可",
+          "status": "present"
+        },
+        {
+          "name": "排便日一行",
+          "status": "present"
+        },
+        {
+          "name": "質硬解不暢",
+          "status": "present"
+        },
+        {
+          "name": "夜尿一行",
+          "status": "present"
+        },
+        {
+          "name": "今起喉嚨癢並伴隨熱痛",
+          "status": "present"
+        },
+        {
+          "name": "咳嗽",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-015",
+      "age_group": "未記載",
+      "diagnosis": "月經過少",
+      "chief_complaint": "經量減半約四年",
+      "present_illness": "問診記錄：入睡困難、淺眠、多夢、緊張、齒痕、不易入睡、平常、易緊張、清醒、中等、質硬、小便正常、經量減半四年。",
+      "tongue": "舌紅、舌體偏小、齒痕、苔少",
+      "pulse": "未記載",
+      "patterns": [
+        "肝腎陰虛",
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "加味逍遙散",
+        "炙甘草湯",
+        "真人活命飲"
+      ],
+      "observations": [
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "齒痕",
+          "status": "present"
+        },
+        {
+          "name": "不易入睡",
+          "status": "present"
+        },
+        {
+          "name": "平常",
+          "status": "present"
+        },
+        {
+          "name": "易緊張",
+          "status": "present"
+        },
+        {
+          "name": "清醒",
+          "status": "present"
+        },
+        {
+          "name": "中等",
+          "status": "present"
+        },
+        {
+          "name": "質硬",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "經量減半四年",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-016",
+      "age_group": "50–59",
+      "diagnosis": "停經及女性更年期之病況",
+      "chief_complaint": "更年期症狀如熱潮紅、盜汗、心悸、喘自今年年初開始加重",
+      "present_illness": "問診記錄：盜汗、心悸、喘、怕熱、頭痛、失眠、淺眠、易醒、腰痠、汗多、偶頭痛、納可、眠差、淺眠易醒、腰酸甚、全身痠痛、三天一行、質軟、小便正常。",
+      "tongue": "舌微紅、苔薄白有齒痕、少津",
+      "pulse": "未記載",
+      "patterns": [
+        "肝腎陰虛",
+        "肝氣鬱結"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "盜汗",
+          "status": "present"
+        },
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "喘",
+          "status": "present"
+        },
+        {
+          "name": "怕熱",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "汗多",
+          "status": "present"
+        },
+        {
+          "name": "偶頭痛",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "淺眠易醒",
+          "status": "present"
+        },
+        {
+          "name": "腰酸甚",
+          "status": "present"
+        },
+        {
+          "name": "全身痠痛",
+          "status": "present"
+        },
+        {
+          "name": "三天一行",
+          "status": "present"
+        },
+        {
+          "name": "質軟",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-017",
+      "age_group": "未記載",
+      "diagnosis": "子宮內膜惡性腫瘤",
+      "chief_complaint": "調理化療副作用",
+      "present_illness": "問診記錄：口乾、食慾不佳、噯氣、呃逆、入睡困難、易醒、大便稀軟、呃逆症狀、腹部開刀傷口、脹痛感**、食慾不振、不易入睡、半夜也易醒**、四肢末梢感覺麻木外加有些微腫脹**、大便一日三行、質軟散、偶會便溏、小便正常、調理化療副作用(四肢及軀幹皮膚紅疹搔癢、末梢麻4天)。",
+      "tongue": "舌淡紅、舌有齒痕、苔薄白、津多",
+      "pulse": "右寸細數、關浮數、左寸數、關滑數",
+      "patterns": [
+        "氣虛血瘀"
+      ],
+      "formulas": [
+        "散腫潰堅湯",
+        "消風散",
+        "香砂六君子湯",
+        "益氣聰明湯"
+      ],
+      "observations": [
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "食慾不佳",
+          "status": "present"
+        },
+        {
+          "name": "噯氣",
+          "status": "present"
+        },
+        {
+          "name": "呃逆",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "大便稀軟",
+          "status": "present"
+        },
+        {
+          "name": "呃逆症狀",
+          "status": "present"
+        },
+        {
+          "name": "腹部開刀傷口",
+          "status": "present"
+        },
+        {
+          "name": "脹痛感**",
+          "status": "present"
+        },
+        {
+          "name": "食慾不振",
+          "status": "present"
+        },
+        {
+          "name": "不易入睡",
+          "status": "present"
+        },
+        {
+          "name": "半夜也易醒**",
+          "status": "present"
+        },
+        {
+          "name": "四肢末梢感覺麻木外加有些微腫脹**",
+          "status": "present"
+        },
+        {
+          "name": "大便一日三行",
+          "status": "present"
+        },
+        {
+          "name": "質軟散",
+          "status": "present"
+        },
+        {
+          "name": "偶會便溏",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "調理化療副作用(四肢及軀幹皮膚紅疹搔癢、末梢麻4天)",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-018",
+      "age_group": "未記載",
+      "diagnosis": "下背部肌肉、筋膜及韌帶拉傷",
+      "chief_complaint": "運動後急性腰痛已三天。",
+      "present_illness": "問診記錄：腰痛、壓痛、腰部 flexion、rotation障礙、四肢肌肉MP正常、下肢ROM、參展活動度受限。",
+      "tongue": "舌淡紅、苔薄白",
+      "pulse": "脈沉有力",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "腰痛",
+          "status": "present"
+        },
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "腰部 flexion",
+          "status": "present"
+        },
+        {
+          "name": "rotation障礙",
+          "status": "present"
+        },
+        {
+          "name": "四肢肌肉MP正常",
+          "status": "present"
+        },
+        {
+          "name": "下肢ROM",
+          "status": "present"
+        },
+        {
+          "name": "參展活動度受限",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-019",
+      "age_group": "未記載",
+      "diagnosis": "未明示側性之淚腺乾眼症",
+      "chief_complaint": "乾眼症,病程:大於5年",
+      "present_illness": "問診記錄：入睡困難、淺眠、易醒、不易入睡、平常、乾眼症,病程:大於5年。",
+      "tongue": "舌淡紅、苔薄黃、齒痕、朱點",
+      "pulse": "左脈弦滑、右脈弦",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "桑菊飲",
+        "加味逍遙散",
+        "溫清飲"
+      ],
+      "observations": [
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "不易入睡",
+          "status": "present"
+        },
+        {
+          "name": "平常",
+          "status": "present"
+        },
+        {
+          "name": "乾眼症,病程:大於5年",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-020",
+      "age_group": "30–39",
+      "diagnosis": "偏頭痛",
+      "chief_complaint": "七天前頭痛伴隨目黑",
+      "present_illness": "問診記錄：頭痛、聲音沙啞、失眠、淺眠、病人本身偏頭痛已9-10年、最近於09/20 突然頭痛並且伴隨目黑、納可、最近運動量增、眠差、情緒平、痤瘡一般經前會加重、此次在09/23發作、二便正常、排便1-2日1行。",
+      "tongue": "舌略紅、苔白微厚膩津平",
+      "pulse": "細緩緊、右尺浮、脈細緩緊",
+      "patterns": [
+        "肝陽上亢"
+      ],
+      "formulas": [
+        "清心蓮子飲",
+        "冰片三倍散",
+        "柴胡加龍骨牡蠣湯",
+        "加味逍遙散"
+      ],
+      "observations": [
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "聲音沙啞",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "病人本身偏頭痛已9-10年",
+          "status": "present"
+        },
+        {
+          "name": "最近於09/20 突然頭痛並且伴隨目黑",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "最近運動量增",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "情緒平",
+          "status": "present"
+        },
+        {
+          "name": "痤瘡一般經前會加重",
+          "status": "present"
+        },
+        {
+          "name": "此次在09/23發作",
+          "status": "present"
+        },
+        {
+          "name": "二便正常",
+          "status": "present"
+        },
+        {
+          "name": "排便1-2日1行",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-021",
+      "age_group": "未記載",
+      "diagnosis": "非特定的學業技能發展障礙症",
+      "chief_complaint": "較同齡孩童矮小,欲行生長發育調理。",
+      "present_illness": "問診記錄：流鼻水、易醒、唇色淡紅、天氣變化易感冒流鼻水、因打呼嚴重一年多前腺樣體肥大S/P、語言發展較同齡慢、持續ST治療、挑食、咀嚼能力較差、睡眠品質不佳、易醒(1-2小時)、斷斷續續睡到天亮(22:00-08:00)、中午在學校不午休、在校上課專注力不佳、跑來跑去、體格瘦小(身高小於第3百分位 體重第3-15百分位)、意識清醒、精神佳、坐不太住、需手機轉移注意力才能靜下來坐著、動作發展較慢、持續PT、OT治療、中根苔厚、大便1-2天1次、透明黏液、小便平、較同齡孩童矮小,欲行生長發育調理。",
+      "tongue": "舌質淡紅、舌、舌尖略有朱點、苔薄白、苔厚、中根",
+      "pulse": "脈滑",
+      "patterns": [
+        "腎精不足",
+        "脾氣虛"
+      ],
+      "formulas": [
+        "六味地黃丸"
+      ],
+      "observations": [
+        {
+          "name": "流鼻水",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "唇色淡紅",
+          "status": "present"
+        },
+        {
+          "name": "天氣變化易感冒流鼻水",
+          "status": "present"
+        },
+        {
+          "name": "因打呼嚴重一年多前腺樣體肥大S/P",
+          "status": "present"
+        },
+        {
+          "name": "語言發展較同齡慢",
+          "status": "present"
+        },
+        {
+          "name": "持續ST治療",
+          "status": "present"
+        },
+        {
+          "name": "挑食",
+          "status": "present"
+        },
+        {
+          "name": "咀嚼能力較差",
+          "status": "present"
+        },
+        {
+          "name": "睡眠品質不佳",
+          "status": "present"
+        },
+        {
+          "name": "易醒(1-2小時)",
+          "status": "present"
+        },
+        {
+          "name": "斷斷續續睡到天亮(22:00-08:00)",
+          "status": "present"
+        },
+        {
+          "name": "中午在學校不午休",
+          "status": "present"
+        },
+        {
+          "name": "在校上課專注力不佳",
+          "status": "present"
+        },
+        {
+          "name": "跑來跑去",
+          "status": "present"
+        },
+        {
+          "name": "體格瘦小(身高小於第3百分位 體重第3-15百分位)",
+          "status": "present"
+        },
+        {
+          "name": "意識清醒",
+          "status": "present"
+        },
+        {
+          "name": "精神佳",
+          "status": "present"
+        },
+        {
+          "name": "坐不太住",
+          "status": "present"
+        },
+        {
+          "name": "需手機轉移注意力才能靜下來坐著",
+          "status": "present"
+        },
+        {
+          "name": "動作發展較慢",
+          "status": "present"
+        },
+        {
+          "name": "持續PT",
+          "status": "present"
+        },
+        {
+          "name": "OT治療",
+          "status": "present"
+        },
+        {
+          "name": "中根苔厚",
+          "status": "present"
+        },
+        {
+          "name": "大便1-2天1次",
+          "status": "present"
+        },
+        {
+          "name": "透明黏液",
+          "status": "present"
+        },
+        {
+          "name": "小便平",
+          "status": "present"
+        },
+        {
+          "name": "較同齡孩童矮小,欲行生長發育調理",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-022",
+      "age_group": "未記載",
+      "diagnosis": "白斑",
+      "chief_complaint": "眼周白斑6個月",
+      "present_illness": "問診記錄：壓力大、煩躁、焦慮、失眠、頭痛、輪班工作、喜食炸物、成形、軟、運動少、夜班眠差而頭痛、偶爾服止痛藥、工作壓力大、大便1日1-2行、眼周白斑6個月。",
+      "tongue": "舌稍紅減、薄白、苔、齒痕、苔薄白",
+      "pulse": "脈沉弦",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "加味逍遙散",
+        "川芎茶調散",
+        "血府逐瘀湯",
+        "苓甘薑味辛夏仁湯"
+      ],
+      "observations": [
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "煩躁",
+          "status": "present"
+        },
+        {
+          "name": "焦慮",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "輪班工作",
+          "status": "present"
+        },
+        {
+          "name": "喜食炸物",
+          "status": "present"
+        },
+        {
+          "name": "成形",
+          "status": "present"
+        },
+        {
+          "name": "軟",
+          "status": "present"
+        },
+        {
+          "name": "運動少",
+          "status": "present"
+        },
+        {
+          "name": "夜班眠差而頭痛",
+          "status": "present"
+        },
+        {
+          "name": "偶爾服止痛藥",
+          "status": "present"
+        },
+        {
+          "name": "工作壓力大",
+          "status": "present"
+        },
+        {
+          "name": "大便1日1-2行",
+          "status": "present"
+        },
+        {
+          "name": "眼周白斑6個月",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-023",
+      "age_group": "未記載",
+      "diagnosis": "過敏性鼻炎",
+      "chief_complaint": "鼻涕數十年",
+      "present_illness": "問診記錄：全身無力、口乾、煩躁、大便不易解、鼻涕數十年。",
+      "tongue": "舌質紅、苔白",
+      "pulse": "弦滑、脈弦滑",
+      "patterns": [
+        "外感寒邪"
+      ],
+      "formulas": [
+        "蒼耳散",
+        "辛夷清肺湯",
+        "麻子仁丸",
+        "芍藥甘草湯"
+      ],
+      "observations": [
+        {
+          "name": "全身無力",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "煩躁",
+          "status": "present"
+        },
+        {
+          "name": "大便不易解",
+          "status": "present"
+        },
+        {
+          "name": "鼻涕數十年",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-024",
+      "age_group": "未記載",
+      "diagnosis": "夜尿",
+      "chief_complaint": "夜間清醒如廁5次。",
+      "present_illness": "問診記錄：耳鳴、入睡困難、多夢、易醒、焦慮、夜尿、尿量少、腰痠、水腫、納可、少食澱粉、喝水1天2000ML、易醒(8 PM~6AM)、焦慮(有服用抗焦慮藥物)、背部有熱感、偶爾午後下肢水腫、偶爾抽筋、輕微便祕、大便1天1行、質成條(先硬)、夜尿五次、夜尿尿量少有時尿不出來、夜間清醒如廁5次。",
+      "tongue": "舌淡紅、稍薄黃膩",
+      "pulse": "左右脈稍沉、尺脈細滑、雙脈稍沉、尺細滑",
+      "patterns": [
+        "腎氣虛",
+        "心腎不交"
+      ],
+      "formulas": [
+        "知柏地黃丸",
+        "歸脾湯",
+        "小建中湯"
+      ],
+      "observations": [
+        {
+          "name": "耳鳴",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "焦慮",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "尿量少",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "水腫",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "少食澱粉",
+          "status": "present"
+        },
+        {
+          "name": "喝水1天2000ML",
+          "status": "present"
+        },
+        {
+          "name": "易醒(8 PM~6AM)",
+          "status": "present"
+        },
+        {
+          "name": "焦慮(有服用抗焦慮藥物)",
+          "status": "present"
+        },
+        {
+          "name": "背部有熱感",
+          "status": "present"
+        },
+        {
+          "name": "偶爾午後下肢水腫",
+          "status": "present"
+        },
+        {
+          "name": "偶爾抽筋",
+          "status": "present"
+        },
+        {
+          "name": "輕微便祕",
+          "status": "present"
+        },
+        {
+          "name": "大便1天1行",
+          "status": "present"
+        },
+        {
+          "name": "質成條(先硬)",
+          "status": "present"
+        },
+        {
+          "name": "夜尿五次",
+          "status": "present"
+        },
+        {
+          "name": "夜尿尿量少有時尿不出來",
+          "status": "present"
+        },
+        {
+          "name": "夜間清醒如廁5次",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-025",
+      "age_group": "40–49",
+      "diagnosis": "左側眼視網膜裂孔",
+      "chief_complaint": "兩眼對焦不佳約三個月",
+      "present_illness": "問診記錄：疲倦、水腫、勞累時左眼腫脹酸澀加劇、食慾佳、納佳、易疲倦、偶難入眠(2次/週)影響白日精神、點精神特好、現偶有異物感、便一日一至三行、軟散不成形、兩眼對焦不佳三個月。明確否認口乾、腹脹。",
+      "tongue": "舌淡紅稍暗、邊齒痕、苔薄白有津",
+      "pulse": "脈沉弦促",
+      "patterns": [
+        "肝腎陰虛",
+        "氣虛血瘀"
+      ],
+      "formulas": [
+        "滋腎明目湯"
+      ],
+      "observations": [
+        {
+          "name": "疲倦",
+          "status": "present"
+        },
+        {
+          "name": "水腫",
+          "status": "present"
+        },
+        {
+          "name": "勞累時左眼腫脹酸澀加劇",
+          "status": "present"
+        },
+        {
+          "name": "食慾佳",
+          "status": "present"
+        },
+        {
+          "name": "納佳",
+          "status": "present"
+        },
+        {
+          "name": "易疲倦",
+          "status": "present"
+        },
+        {
+          "name": "偶難入眠(2次/週)影響白日精神",
+          "status": "present"
+        },
+        {
+          "name": "點精神特好",
+          "status": "present"
+        },
+        {
+          "name": "現偶有異物感",
+          "status": "present"
+        },
+        {
+          "name": "便一日一至三行",
+          "status": "present"
+        },
+        {
+          "name": "軟散不成形",
+          "status": "present"
+        },
+        {
+          "name": "兩眼對焦不佳三個月",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "absent"
+        },
+        {
+          "name": "腹脹",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-026",
+      "age_group": "60+",
+      "diagnosis": "未明示側性卵巢惡性腫瘤",
+      "chief_complaint": "容易恐慌緊張已至少半年",
+      "present_illness": "問診記錄：恐慌、緊張。",
+      "tongue": "未記載",
+      "pulse": "未記載",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "天麻鉤藤飲",
+        "溫膽湯",
+        "桂枝加龍骨牡蠣湯"
+      ],
+      "observations": [
+        {
+          "name": "恐慌",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-027",
+      "age_group": "未記載",
+      "diagnosis": "小腿未明示肌肉及肌腱損傷",
+      "chief_complaint": "雙小腿疼痛數月。",
+      "present_illness": "問診記錄：怕熱、頭痛、淺眠、緊張、易怒、煩躁、血尿、眠可、平素課業壓力平、不易緊張、不易怒、不易煩躁、雙小腿疼痛、跳躍和跑步時緊繃痠痛感、一日一行、質可、排尿疼痛。",
+      "tongue": "舌淡紅、苔薄白",
+      "pulse": "脈弦",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "怕熱",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "易怒",
+          "status": "present"
+        },
+        {
+          "name": "煩躁",
+          "status": "present"
+        },
+        {
+          "name": "血尿",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "平素課業壓力平",
+          "status": "present"
+        },
+        {
+          "name": "不易緊張",
+          "status": "present"
+        },
+        {
+          "name": "不易怒",
+          "status": "present"
+        },
+        {
+          "name": "不易煩躁",
+          "status": "present"
+        },
+        {
+          "name": "雙小腿疼痛",
+          "status": "present"
+        },
+        {
+          "name": "跳躍和跑步時緊繃痠痛感",
+          "status": "present"
+        },
+        {
+          "name": "一日一行",
+          "status": "present"
+        },
+        {
+          "name": "質可",
+          "status": "present"
+        },
+        {
+          "name": "排尿疼痛",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-028",
+      "age_group": "18–29",
+      "diagnosis": "頸部肌肉，筋膜和肌腱拉傷",
+      "chief_complaint": "左手腕疼痛數月",
+      "present_illness": "問診記錄：左手腕疼痛、自汗、腰痠、肌肉緊繃、入睡可、睡眠時間約6-7小時、勞損後加重、熱敷後緩解、仰臥休息後緩解、勞動過後症狀加重、成形、一日一行。",
+      "tongue": "舌淡紅、苔薄白",
+      "pulse": "脈滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "左手腕疼痛",
+          "status": "present"
+        },
+        {
+          "name": "自汗",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "肌肉緊繃",
+          "status": "present"
+        },
+        {
+          "name": "入睡可",
+          "status": "present"
+        },
+        {
+          "name": "睡眠時間約6-7小時",
+          "status": "present"
+        },
+        {
+          "name": "勞損後加重",
+          "status": "present"
+        },
+        {
+          "name": "熱敷後緩解",
+          "status": "present"
+        },
+        {
+          "name": "仰臥休息後緩解",
+          "status": "present"
+        },
+        {
+          "name": "勞動過後症狀加重",
+          "status": "present"
+        },
+        {
+          "name": "成形",
+          "status": "present"
+        },
+        {
+          "name": "一日一行",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-029",
+      "age_group": "未記載",
+      "diagnosis": "扳機指",
+      "chief_complaint": "右腕橈側關節陣發性腫痛一個禮拜",
+      "present_illness": "問診記錄：心悸、口乾、失眠、淺眠、多夢、易醒、健忘、夜尿、全身無力、腰痠、身倦、心悸(2-3次/週)、納可、三餐不定時、口乾欲飲(飲水後不一定改善)、眠差、:00-03:30醒來後睡不著05:00後再度入睡到07:30、淺眠多夢易醒、懷孕後健忘、病人自覺一個禮拜前睡覺時折到手後、右腕橈側關節陣發性痠痛已一個禮拜(VAS:5)、腕關節及大拇指活動時(如洗碗)疼痛加劇、關節不活動就不疼痛、伴隨右腕橈側關節局部腫脹、熱、麻木、瘀血、肌肉萎縮等症狀、尾椎疼痛、肩頸緊繃、大便約1日1行(不成形 偏軟)、小便量可色淡黃、夜尿(1次/晚)、右腕橈側關節陣發性腫痛一個禮拜。",
+      "tongue": "舌淡紅、有齒痕、苔薄白、齒痕",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "金黃散"
+      ],
+      "observations": [
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "健忘",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "全身無力",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "身倦",
+          "status": "present"
+        },
+        {
+          "name": "心悸(2-3次/週)",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "三餐不定時",
+          "status": "present"
+        },
+        {
+          "name": "口乾欲飲(飲水後不一定改善)",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": ":00-03:30醒來後睡不著05:00後再度入睡到07:30",
+          "status": "present"
+        },
+        {
+          "name": "淺眠多夢易醒",
+          "status": "present"
+        },
+        {
+          "name": "懷孕後健忘",
+          "status": "present"
+        },
+        {
+          "name": "病人自覺一個禮拜前睡覺時折到手後",
+          "status": "present"
+        },
+        {
+          "name": "右腕橈側關節陣發性痠痛已一個禮拜(VAS:5)",
+          "status": "present"
+        },
+        {
+          "name": "腕關節及大拇指活動時(如洗碗)疼痛加劇",
+          "status": "present"
+        },
+        {
+          "name": "關節不活動就不疼痛",
+          "status": "present"
+        },
+        {
+          "name": "伴隨右腕橈側關節局部腫脹",
+          "status": "present"
+        },
+        {
+          "name": "熱",
+          "status": "present"
+        },
+        {
+          "name": "麻木",
+          "status": "present"
+        },
+        {
+          "name": "瘀血",
+          "status": "present"
+        },
+        {
+          "name": "肌肉萎縮等症狀",
+          "status": "present"
+        },
+        {
+          "name": "尾椎疼痛",
+          "status": "present"
+        },
+        {
+          "name": "肩頸緊繃",
+          "status": "present"
+        },
+        {
+          "name": "大便約1日1行(不成形 偏軟)",
+          "status": "present"
+        },
+        {
+          "name": "小便量可色淡黃",
+          "status": "present"
+        },
+        {
+          "name": "夜尿(1次/晚)",
+          "status": "present"
+        },
+        {
+          "name": "右腕橈側關節陣發性腫痛一個禮拜",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-030",
+      "age_group": "未記載",
+      "diagnosis": "膝部及小腿表淺性損傷",
+      "chief_complaint": "左下肢緊繃痠痛已十天",
+      "present_illness": "問診記錄：眠可、左小腿傷口癒合中、大便一日1行、成形、小便平、左下肢緊繃痠痛十天。明確否認失眠。",
+      "tongue": "舌淡紅、苔薄白",
+      "pulse": "脈細",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "左小腿傷口癒合中",
+          "status": "present"
+        },
+        {
+          "name": "大便一日1行",
+          "status": "present"
+        },
+        {
+          "name": "成形",
+          "status": "present"
+        },
+        {
+          "name": "小便平",
+          "status": "present"
+        },
+        {
+          "name": "左下肢緊繃痠痛十天",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-031",
+      "age_group": "未記載",
+      "diagnosis": "扳機指",
+      "chief_complaint": "右腕橈側關節陣發性腫痛一個禮拜",
+      "present_illness": "問診記錄：心悸、口乾、失眠、淺眠、多夢、易醒、健忘、夜尿、全身無力、腰痠、身倦、心悸(2-3次/週)、納可、三餐不定時、口乾欲飲(飲水後不一定改善)、眠差、:00-03:30醒來後睡不著05:00後再度入睡到07:30、淺眠多夢易醒、懷孕後健忘、病人自覺一個禮拜前睡覺時折到手後、右腕橈側關節陣發性痠痛已一個禮拜(VAS:5)、腕關節及大拇指活動時(如洗碗)疼痛加劇、關節不活動就不疼痛、伴隨右腕橈側關節局部腫脹、熱、麻木、瘀血、肌肉萎縮等症狀、尾椎疼痛、肩頸緊繃、大便約1日1行(不成形 偏軟)、小便量可色淡黃、夜尿(1次/晚)、右腕橈側關節陣發性腫痛一個禮拜。",
+      "tongue": "舌淡紅、有齒痕、苔薄白、齒痕",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "金黃散"
+      ],
+      "observations": [
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "健忘",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "全身無力",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "身倦",
+          "status": "present"
+        },
+        {
+          "name": "心悸(2-3次/週)",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "三餐不定時",
+          "status": "present"
+        },
+        {
+          "name": "口乾欲飲(飲水後不一定改善)",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": ":00-03:30醒來後睡不著05:00後再度入睡到07:30",
+          "status": "present"
+        },
+        {
+          "name": "淺眠多夢易醒",
+          "status": "present"
+        },
+        {
+          "name": "懷孕後健忘",
+          "status": "present"
+        },
+        {
+          "name": "病人自覺一個禮拜前睡覺時折到手後",
+          "status": "present"
+        },
+        {
+          "name": "右腕橈側關節陣發性痠痛已一個禮拜(VAS:5)",
+          "status": "present"
+        },
+        {
+          "name": "腕關節及大拇指活動時(如洗碗)疼痛加劇",
+          "status": "present"
+        },
+        {
+          "name": "關節不活動就不疼痛",
+          "status": "present"
+        },
+        {
+          "name": "伴隨右腕橈側關節局部腫脹",
+          "status": "present"
+        },
+        {
+          "name": "熱",
+          "status": "present"
+        },
+        {
+          "name": "麻木",
+          "status": "present"
+        },
+        {
+          "name": "瘀血",
+          "status": "present"
+        },
+        {
+          "name": "肌肉萎縮等症狀",
+          "status": "present"
+        },
+        {
+          "name": "尾椎疼痛",
+          "status": "present"
+        },
+        {
+          "name": "肩頸緊繃",
+          "status": "present"
+        },
+        {
+          "name": "大便約1日1行(不成形 偏軟)",
+          "status": "present"
+        },
+        {
+          "name": "小便量可色淡黃",
+          "status": "present"
+        },
+        {
+          "name": "夜尿(1次/晚)",
+          "status": "present"
+        },
+        {
+          "name": "右腕橈側關節陣發性腫痛一個禮拜",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-032",
+      "age_group": "未記載",
+      "diagnosis": "腎病症候群",
+      "chief_complaint": "水腫反覆",
+      "present_illness": "問診記錄：水腫、喘、口苦、心悸、燥熱、心悸且血壓偏高、二便正常。",
+      "tongue": "舌胖大紅質裂薄、苔津沫",
+      "pulse": "脈數無力",
+      "patterns": [
+        "陽水"
+      ],
+      "formulas": [
+        "知柏地黃丸",
+        "防己黃耆湯",
+        "紫雲膏"
+      ],
+      "observations": [
+        {
+          "name": "水腫",
+          "status": "present"
+        },
+        {
+          "name": "喘",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "present"
+        },
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "燥熱",
+          "status": "present"
+        },
+        {
+          "name": "心悸且血壓偏高",
+          "status": "present"
+        },
+        {
+          "name": "二便正常",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-033",
+      "age_group": "未記載",
+      "diagnosis": "橈骨莖狀突腱鞘炎[deQuervain(氏)]",
+      "chief_complaint": "右手拇指鼻咽壺處疼痛已兩日。",
+      "present_illness": "問診記錄：腹脹、失眠、壓痛、偶腹脹、食慾可、眠差、晚睡、壓力稍大、右手鼻咽壺處疼痛、右肘部局部壓痛、精神可、偶疲累、a. 大便一日一至二行、色黃成條、b. 小便平常、右手拇指鼻咽壺處疼痛兩日。",
+      "tongue": "舌淡紅、苔白膩、尖朱點",
+      "pulse": "脈沉滑",
+      "patterns": [
+        "氣滯血瘀",
+        "脾胃氣虛"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "腹脹",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "偶腹脹",
+          "status": "present"
+        },
+        {
+          "name": "食慾可",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "晚睡",
+          "status": "present"
+        },
+        {
+          "name": "壓力稍大",
+          "status": "present"
+        },
+        {
+          "name": "右手鼻咽壺處疼痛",
+          "status": "present"
+        },
+        {
+          "name": "右肘部局部壓痛",
+          "status": "present"
+        },
+        {
+          "name": "精神可",
+          "status": "present"
+        },
+        {
+          "name": "偶疲累",
+          "status": "present"
+        },
+        {
+          "name": "a. 大便一日一至二行",
+          "status": "present"
+        },
+        {
+          "name": "色黃成條",
+          "status": "present"
+        },
+        {
+          "name": "b. 小便平常",
+          "status": "present"
+        },
+        {
+          "name": "右手拇指鼻咽壺處疼痛兩日",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-034",
+      "age_group": "未記載",
+      "diagnosis": "慢性腎臟疾病stage3",
+      "chief_complaint": "腎功能惡化一年多",
+      "present_illness": "問診記錄：怕冷、疲倦、頭暈、口乾、喘、失眠、夜尿、入睡困難、大便稀軟、血尿、午後疲倦、姿勢改變會頭暈、目痠、微齒痕、稍少津、上下樓梯易喘、食慾可、知飢、近日易口乾飲頻、眠差11pm-7am、起床後難入睡、雙上肢覺冷、尺稍不足、大便日2-3行、成形偶軟散、夜尿1-2行、尿量可、夜尿一次、腎功能惡化一年多。",
+      "tongue": "舌淡紅暗、舌、苔膩、微齒痕、稍少津",
+      "pulse": "脈弦數去急、尺稍不足",
+      "patterns": [
+        "脾腎陽虛",
+        "肺氣虛"
+      ],
+      "formulas": [
+        "人參養榮湯"
+      ],
+      "observations": [
+        {
+          "name": "怕冷",
+          "status": "present"
+        },
+        {
+          "name": "疲倦",
+          "status": "present"
+        },
+        {
+          "name": "頭暈",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "喘",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "大便稀軟",
+          "status": "present"
+        },
+        {
+          "name": "血尿",
+          "status": "present"
+        },
+        {
+          "name": "午後疲倦",
+          "status": "present"
+        },
+        {
+          "name": "姿勢改變會頭暈",
+          "status": "present"
+        },
+        {
+          "name": "目痠",
+          "status": "present"
+        },
+        {
+          "name": "微齒痕",
+          "status": "present"
+        },
+        {
+          "name": "稍少津",
+          "status": "present"
+        },
+        {
+          "name": "上下樓梯易喘",
+          "status": "present"
+        },
+        {
+          "name": "食慾可",
+          "status": "present"
+        },
+        {
+          "name": "知飢",
+          "status": "present"
+        },
+        {
+          "name": "近日易口乾飲頻",
+          "status": "present"
+        },
+        {
+          "name": "眠差11pm-7am",
+          "status": "present"
+        },
+        {
+          "name": "起床後難入睡",
+          "status": "present"
+        },
+        {
+          "name": "雙上肢覺冷",
+          "status": "present"
+        },
+        {
+          "name": "尺稍不足",
+          "status": "present"
+        },
+        {
+          "name": "大便日2-3行",
+          "status": "present"
+        },
+        {
+          "name": "成形偶軟散",
+          "status": "present"
+        },
+        {
+          "name": "夜尿1-2行",
+          "status": "present"
+        },
+        {
+          "name": "尿量可",
+          "status": "present"
+        },
+        {
+          "name": "夜尿一次",
+          "status": "present"
+        },
+        {
+          "name": "腎功能惡化一年多",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-035",
+      "age_group": "未記載",
+      "diagnosis": "扳機指",
+      "chief_complaint": "左手中指屈伸不利約10天",
+      "present_illness": "問診記錄：泛酸、偶泛酸、左手中指屈伸不利、抽菸1ppd、喝酒0.5瓶烈酒/天、大便較稀。",
+      "tongue": "舌紅、體瘦、苔黃膩",
+      "pulse": "右寸細數、右關浮弦滑數、左寸關弦滑數",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "腫痛安"
+      ],
+      "observations": [
+        {
+          "name": "泛酸",
+          "status": "present"
+        },
+        {
+          "name": "偶泛酸",
+          "status": "present"
+        },
+        {
+          "name": "左手中指屈伸不利",
+          "status": "present"
+        },
+        {
+          "name": "抽菸1ppd",
+          "status": "present"
+        },
+        {
+          "name": "喝酒0.5瓶烈酒/天",
+          "status": "present"
+        },
+        {
+          "name": "大便較稀",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-036",
+      "age_group": "未記載",
+      "diagnosis": "心臟節律不整、慢性腎臟疾病",
+      "chief_complaint": "小便泡沫多5年",
+      "present_illness": "問診記錄：胸悶、夜尿、畏寒、易胸悶、呼吸不順、畏風、食後矢氣多、容易疲倦、小便泡沫多、夜尿2次。",
+      "tongue": "舌偏紅、中裂、苔黃、少津",
+      "pulse": "右脈浮弦大有力、結脈、左脈弦結脈",
+      "patterns": [
+        "心腎陽虛",
+        "肝氣鬱結"
+      ],
+      "formulas": [
+        "濟生腎氣丸",
+        "炙甘草湯"
+      ],
+      "observations": [
+        {
+          "name": "胸悶",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "畏寒",
+          "status": "present"
+        },
+        {
+          "name": "易胸悶",
+          "status": "present"
+        },
+        {
+          "name": "呼吸不順",
+          "status": "present"
+        },
+        {
+          "name": "畏風",
+          "status": "present"
+        },
+        {
+          "name": "食後矢氣多",
+          "status": "present"
+        },
+        {
+          "name": "容易疲倦",
+          "status": "present"
+        },
+        {
+          "name": "小便泡沫多",
+          "status": "present"
+        },
+        {
+          "name": "夜尿2次",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-037",
+      "age_group": "60+",
+      "diagnosis": "頸部神經管骨性狹窄、肩部粘連性囊炎、橈骨莖狀突腱鞘炎[deQuervain(氏)]",
+      "chief_complaint": "頸部後仰痠痛已一年",
+      "present_illness": "問診記錄：頸部後仰痠痛、平常、左肩緊繃痠痛已一年半餘、復健科診所診斷為五十肩、嚴重時於特定角度誘發上臂痠痛、肩部AROM外展角度受限(80度)、屈曲角度受限(160度)、左手無法梳頭髮、揹後腰、於復健科電療2個月無效、右肩關節唇前側痠痛已2個月(無外傷史)、屈曲90度合併上臂內旋時誘發疼痛、尚未至其他醫療院所就診過、左大指被動外展時疼痛且MCP鬆脫有聲已一年、左手可比讚、大拇指受力強迫外展時疼痛、大指與小指對指時亦會疼痛、年騎車摔倒、當時大拇指局部有紅腫熱痛、後隨時間漸漸恢復、近一年上述症發、Finkelstein Test(+)、大便一日一行、成條、小便平。",
+      "tongue": "舌淡紅、苔黃白相兼/邊齒痕",
+      "pulse": "右弦滑/左寸滑關尺弦、右脈弦滑、左寸滑關尺弦",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "頸部後仰痠痛",
+          "status": "present"
+        },
+        {
+          "name": "平常",
+          "status": "present"
+        },
+        {
+          "name": "左肩緊繃痠痛已一年半餘",
+          "status": "present"
+        },
+        {
+          "name": "復健科診所診斷為五十肩",
+          "status": "present"
+        },
+        {
+          "name": "嚴重時於特定角度誘發上臂痠痛",
+          "status": "present"
+        },
+        {
+          "name": "肩部AROM外展角度受限(80度)",
+          "status": "present"
+        },
+        {
+          "name": "屈曲角度受限(160度)",
+          "status": "present"
+        },
+        {
+          "name": "左手無法梳頭髮",
+          "status": "present"
+        },
+        {
+          "name": "揹後腰",
+          "status": "present"
+        },
+        {
+          "name": "於復健科電療2個月無效",
+          "status": "present"
+        },
+        {
+          "name": "右肩關節唇前側痠痛已2個月(無外傷史)",
+          "status": "present"
+        },
+        {
+          "name": "屈曲90度合併上臂內旋時誘發疼痛",
+          "status": "present"
+        },
+        {
+          "name": "尚未至其他醫療院所就診過",
+          "status": "present"
+        },
+        {
+          "name": "左大指被動外展時疼痛且MCP鬆脫有聲已一年",
+          "status": "present"
+        },
+        {
+          "name": "左手可比讚",
+          "status": "present"
+        },
+        {
+          "name": "大拇指受力強迫外展時疼痛",
+          "status": "present"
+        },
+        {
+          "name": "大指與小指對指時亦會疼痛",
+          "status": "present"
+        },
+        {
+          "name": "年騎車摔倒",
+          "status": "present"
+        },
+        {
+          "name": "當時大拇指局部有紅腫熱痛",
+          "status": "present"
+        },
+        {
+          "name": "後隨時間漸漸恢復",
+          "status": "present"
+        },
+        {
+          "name": "近一年上述症發",
+          "status": "present"
+        },
+        {
+          "name": "Finkelstein Test(+)",
+          "status": "present"
+        },
+        {
+          "name": "大便一日一行",
+          "status": "present"
+        },
+        {
+          "name": "成條",
+          "status": "present"
+        },
+        {
+          "name": "小便平",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-038",
+      "age_group": "未記載",
+      "diagnosis": "腹部,下背部及骨盆肌肉、筋膜及韌帶拉傷",
+      "chief_complaint": "右側外踝刺痛已一個月",
+      "present_illness": "問診記錄：踝刺痛、咳嗽、口乾、多夢、晨起偶口乾、一日飲水量約2000c.c.上下、納可、食慾正常、眠可、偶多夢、一天平均睡眠時間為七小時、運動完右側外踝下方疼痛明顯、站立時亦加重、休息過後改善、稍顯緊繃感、大便一日一行、成型。",
+      "tongue": "舌淡紅、稍有齒痕、苔薄白、有津",
+      "pulse": "雙關弦滑數、尺不足",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "踝刺痛",
+          "status": "present"
+        },
+        {
+          "name": "咳嗽",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "晨起偶口乾",
+          "status": "present"
+        },
+        {
+          "name": "一日飲水量約2000c.c.上下",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "食慾正常",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "偶多夢",
+          "status": "present"
+        },
+        {
+          "name": "一天平均睡眠時間為七小時",
+          "status": "present"
+        },
+        {
+          "name": "運動完右側外踝下方疼痛明顯",
+          "status": "present"
+        },
+        {
+          "name": "站立時亦加重",
+          "status": "present"
+        },
+        {
+          "name": "休息過後改善",
+          "status": "present"
+        },
+        {
+          "name": "稍顯緊繃感",
+          "status": "present"
+        },
+        {
+          "name": "大便一日一行",
+          "status": "present"
+        },
+        {
+          "name": "成型",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-039",
+      "age_group": "18–29",
+      "diagnosis": "其他身體損傷",
+      "chief_complaint": "四肢緊繃一周",
+      "present_illness": "問診記錄：納可、眠可、便一日一行、四肢緊繃一周。",
+      "tongue": "舌淡紅、苔薄白",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "便一日一行",
+          "status": "present"
+        },
+        {
+          "name": "四肢緊繃一周",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-040",
+      "age_group": "未記載",
+      "diagnosis": "腕部、手部及手指表淺性損傷",
+      "chief_complaint": "右手腕挫傷後疼痛已三天",
+      "present_illness": "問診記錄：入睡困難、淺眠、易怒、壓力大、緊張、手腕疼痛、食慾 (正常 )、不易入睡、工作壓力、易緊張、°C、清醒、中等、大便正常、小便正常、右手腕挫傷後疼痛三天。",
+      "tongue": "舌淡紅、苔薄白",
+      "pulse": "未記載",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易怒",
+          "status": "present"
+        },
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "手腕疼痛",
+          "status": "present"
+        },
+        {
+          "name": "食慾 (正常 )",
+          "status": "present"
+        },
+        {
+          "name": "不易入睡",
+          "status": "present"
+        },
+        {
+          "name": "工作壓力",
+          "status": "present"
+        },
+        {
+          "name": "易緊張",
+          "status": "present"
+        },
+        {
+          "name": "°C",
+          "status": "present"
+        },
+        {
+          "name": "清醒",
+          "status": "present"
+        },
+        {
+          "name": "中等",
+          "status": "present"
+        },
+        {
+          "name": "大便正常",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "右手腕挫傷後疼痛三天",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-041",
+      "age_group": "未記載",
+      "diagnosis": "小腿未明示肌肉及肌腱損傷",
+      "chief_complaint": "雙下肢疼痛數年。",
+      "present_illness": "問診記錄：雙下肢疼痛、怕熱、頭痛、淺眠、緊張、易怒、煩躁、血尿、眠可、平素壓力平、不易緊張、不易怒、不易煩躁、一日一行、質可、排尿疼痛。",
+      "tongue": "舌淡紅、苔薄白",
+      "pulse": "脈弦",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "雙下肢疼痛",
+          "status": "present"
+        },
+        {
+          "name": "怕熱",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "易怒",
+          "status": "present"
+        },
+        {
+          "name": "煩躁",
+          "status": "present"
+        },
+        {
+          "name": "血尿",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "平素壓力平",
+          "status": "present"
+        },
+        {
+          "name": "不易緊張",
+          "status": "present"
+        },
+        {
+          "name": "不易怒",
+          "status": "present"
+        },
+        {
+          "name": "不易煩躁",
+          "status": "present"
+        },
+        {
+          "name": "一日一行",
+          "status": "present"
+        },
+        {
+          "name": "質可",
+          "status": "present"
+        },
+        {
+          "name": "排尿疼痛",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-042",
+      "age_group": "40–49",
+      "diagnosis": "未明示為原發性或續發性之肝惡性腫瘤",
+      "chief_complaint": "肝腫瘤術後調理 咽痛兩天",
+      "present_illness": "問診記錄：咽痛、噯氣、泛酸、右肩頸痠痛、術前有吃宵夜的習慣、泛酸感、現無、食納可、夜眠可、習慣5-6點早起、平素易怒、雙側腰痠開刀後、更嚴重、因工作關係需久坐、按摩後可緩解、右手前臂濕疹已久、容易身倦、便一日一行、成形但偏軟、小便可。明確否認口苦。",
+      "tongue": "舌偏紅朱點、少津、齒痕、苔中根白膩",
+      "pulse": "右邊不斂、帶滑、無力、左、帶弦、脈無力",
+      "patterns": [
+        "肝腎陰虛",
+        "風熱"
+      ],
+      "formulas": [
+        "知柏地黃丸",
+        "甘露消毒丹",
+        "銀翹散"
+      ],
+      "observations": [
+        {
+          "name": "咽痛",
+          "status": "present"
+        },
+        {
+          "name": "噯氣",
+          "status": "present"
+        },
+        {
+          "name": "泛酸",
+          "status": "present"
+        },
+        {
+          "name": "右肩頸痠痛",
+          "status": "present"
+        },
+        {
+          "name": "術前有吃宵夜的習慣",
+          "status": "present"
+        },
+        {
+          "name": "泛酸感",
+          "status": "present"
+        },
+        {
+          "name": "現無",
+          "status": "present"
+        },
+        {
+          "name": "食納可",
+          "status": "present"
+        },
+        {
+          "name": "夜眠可",
+          "status": "present"
+        },
+        {
+          "name": "習慣5-6點早起",
+          "status": "present"
+        },
+        {
+          "name": "平素易怒",
+          "status": "present"
+        },
+        {
+          "name": "雙側腰痠開刀後",
+          "status": "present"
+        },
+        {
+          "name": "更嚴重",
+          "status": "present"
+        },
+        {
+          "name": "因工作關係需久坐",
+          "status": "present"
+        },
+        {
+          "name": "按摩後可緩解",
+          "status": "present"
+        },
+        {
+          "name": "右手前臂濕疹已久",
+          "status": "present"
+        },
+        {
+          "name": "容易身倦",
+          "status": "present"
+        },
+        {
+          "name": "便一日一行",
+          "status": "present"
+        },
+        {
+          "name": "成形但偏軟",
+          "status": "present"
+        },
+        {
+          "name": "小便可",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-043",
+      "age_group": "未記載",
+      "diagnosis": "膝部及小腿表淺性損傷",
+      "chief_complaint": "雙小腿疼痛數天",
+      "present_illness": "問診記錄：活動時加重、雙小腿疼痛數天。",
+      "tongue": "舌紅",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "活動時加重",
+          "status": "present"
+        },
+        {
+          "name": "雙小腿疼痛數天",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-044",
+      "age_group": "未記載",
+      "diagnosis": "甲狀腺低下",
+      "chief_complaint": "甲狀腺低下已9年,希望以中藥代替西藥控制疾病",
+      "present_illness": "問診記錄：發熱、多汗、疲倦、口乾、淺眠、易醒、煩躁、易怒、全身無力、多見陰精不足與陽氣虛衰、如惡寒發熱、筋骨痿弱、精神疲累、喝水可改善、面色尚紅潤含蓄、[望診]眼瞼色淡紅、唇色淡紅、[舌診]舌淡紅、齒痕(氣虛)、[聞診]語聲正常、呼吸不急不徐、微口乾、入睡易、醒後倦怠、淺眠易醒(-) 多夢(-) 夜尿(-)、氣血不足、(正氣虧耗 無力鼓動脈搏 而出現脈沉 (沉而無力 柔弱細小若綿絮為弱脈:為氣血(陽氣 精血)兩虛之狀))、[整體]精神可、身形中等、[問診]、[脈診] 脈沉軟弱稍緩、甲狀腺低下9年,希望以中藥代替西藥控制疾病。",
+      "tongue": "[舌診]舌淡紅、舌尖朱點(心火亢盛)、齒痕(氣虛)、苔薄白中根厚膩(中下焦濕濁內停)、舌淡紅、舌尖朱點、齒痕、苔薄白中根厚膩",
+      "pulse": "脈沉軟弱稍緩、脈無力",
+      "patterns": [
+        "脾腎陽虛"
+      ],
+      "formulas": [
+        "左歸丸",
+        "甘露飲"
+      ],
+      "observations": [
+        {
+          "name": "發熱",
+          "status": "present"
+        },
+        {
+          "name": "多汗",
+          "status": "present"
+        },
+        {
+          "name": "疲倦",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "煩躁",
+          "status": "present"
+        },
+        {
+          "name": "易怒",
+          "status": "present"
+        },
+        {
+          "name": "全身無力",
+          "status": "present"
+        },
+        {
+          "name": "多見陰精不足與陽氣虛衰",
+          "status": "present"
+        },
+        {
+          "name": "如惡寒發熱",
+          "status": "present"
+        },
+        {
+          "name": "筋骨痿弱",
+          "status": "present"
+        },
+        {
+          "name": "精神疲累",
+          "status": "present"
+        },
+        {
+          "name": "喝水可改善",
+          "status": "present"
+        },
+        {
+          "name": "面色尚紅潤含蓄",
+          "status": "present"
+        },
+        {
+          "name": "[望診]眼瞼色淡紅",
+          "status": "present"
+        },
+        {
+          "name": "唇色淡紅",
+          "status": "present"
+        },
+        {
+          "name": "[舌診]舌淡紅",
+          "status": "present"
+        },
+        {
+          "name": "齒痕(氣虛)",
+          "status": "present"
+        },
+        {
+          "name": "[聞診]語聲正常",
+          "status": "present"
+        },
+        {
+          "name": "呼吸不急不徐",
+          "status": "present"
+        },
+        {
+          "name": "微口乾",
+          "status": "present"
+        },
+        {
+          "name": "入睡易",
+          "status": "present"
+        },
+        {
+          "name": "醒後倦怠",
+          "status": "present"
+        },
+        {
+          "name": "淺眠易醒(-) 多夢(-) 夜尿(-)",
+          "status": "present"
+        },
+        {
+          "name": "氣血不足",
+          "status": "present"
+        },
+        {
+          "name": "(正氣虧耗 無力鼓動脈搏 而出現脈沉 (沉而無力 柔弱細小若綿絮為弱脈:為氣血(陽氣 精血)兩虛之狀))",
+          "status": "present"
+        },
+        {
+          "name": "[整體]精神可",
+          "status": "present"
+        },
+        {
+          "name": "身形中等",
+          "status": "present"
+        },
+        {
+          "name": "[問診]",
+          "status": "present"
+        },
+        {
+          "name": "[脈診] 脈沉軟弱稍緩",
+          "status": "present"
+        },
+        {
+          "name": "甲狀腺低下9年,希望以中藥代替西藥控制疾病",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-045",
+      "age_group": "未記載",
+      "diagnosis": "毛囊疾患",
+      "chief_complaint": "胸口皮疹已一月",
+      "present_illness": "問診記錄：皮膚紅疹、多汗、泛酸、噁心、口乾、鼻塞、流鼻水、易汗、換季時鼻塞鼻水、食後泛酸噁心、納可、am、時口乾、喝水4000cc/day、正常運動、眠可時有夢12am-7、疹子運動後/熱時/炸辣易發、喜食辛辣、大便1-3次偏軟、胸口皮疹一月。",
+      "tongue": "舌淡紅、苔薄白、齒痕、舌尖瘀斑",
+      "pulse": "弦寸細澀、左澀寸緩滑關尺沉",
+      "patterns": [
+        "濕熱",
+        "血瘀"
+      ],
+      "formulas": [
+        "真人活命飲",
+        "加味逍遙散",
+        "二陳湯"
+      ],
+      "observations": [
+        {
+          "name": "皮膚紅疹",
+          "status": "present"
+        },
+        {
+          "name": "多汗",
+          "status": "present"
+        },
+        {
+          "name": "泛酸",
+          "status": "present"
+        },
+        {
+          "name": "噁心",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "鼻塞",
+          "status": "present"
+        },
+        {
+          "name": "流鼻水",
+          "status": "present"
+        },
+        {
+          "name": "易汗",
+          "status": "present"
+        },
+        {
+          "name": "換季時鼻塞鼻水",
+          "status": "present"
+        },
+        {
+          "name": "食後泛酸噁心",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "am",
+          "status": "present"
+        },
+        {
+          "name": "時口乾",
+          "status": "present"
+        },
+        {
+          "name": "喝水4000cc/day",
+          "status": "present"
+        },
+        {
+          "name": "正常運動",
+          "status": "present"
+        },
+        {
+          "name": "眠可時有夢12am-7",
+          "status": "present"
+        },
+        {
+          "name": "疹子運動後/熱時/炸辣易發",
+          "status": "present"
+        },
+        {
+          "name": "喜食辛辣",
+          "status": "present"
+        },
+        {
+          "name": "大便1-3次偏軟",
+          "status": "present"
+        },
+        {
+          "name": "胸口皮疹一月",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-046",
+      "age_group": "未記載",
+      "diagnosis": "多發神經病變",
+      "chief_complaint": "手足痠、麻、痛、放電感已一年。",
+      "present_illness": "問診記錄：足痠、頭痛、胸悶、入睡困難、淺眠、腰痠、語速快、多話、三餐正常、食慾正常、入眠難、焦急、擔憂、腰酸、痠麻痛、放電感、清醒、體格中等、體瘦、右寸弦細數/關濡數/尺弦、左寸澀/關弦數頂指、中醫四診、大便一天一行、成形、小便偶黃。明確否認口苦、耳鳴。",
+      "tongue": "舌淡紅、舌尖紅、體瘦、苔薄白",
+      "pulse": "未記載",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "身痛逐瘀湯",
+        "麻杏薏甘湯"
+      ],
+      "observations": [
+        {
+          "name": "足痠",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "胸悶",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "語速快",
+          "status": "present"
+        },
+        {
+          "name": "多話",
+          "status": "present"
+        },
+        {
+          "name": "三餐正常",
+          "status": "present"
+        },
+        {
+          "name": "食慾正常",
+          "status": "present"
+        },
+        {
+          "name": "入眠難",
+          "status": "present"
+        },
+        {
+          "name": "焦急",
+          "status": "present"
+        },
+        {
+          "name": "擔憂",
+          "status": "present"
+        },
+        {
+          "name": "腰酸",
+          "status": "present"
+        },
+        {
+          "name": "痠麻痛",
+          "status": "present"
+        },
+        {
+          "name": "放電感",
+          "status": "present"
+        },
+        {
+          "name": "清醒",
+          "status": "present"
+        },
+        {
+          "name": "體格中等",
+          "status": "present"
+        },
+        {
+          "name": "體瘦",
+          "status": "present"
+        },
+        {
+          "name": "右寸弦細數/關濡數/尺弦",
+          "status": "present"
+        },
+        {
+          "name": "左寸澀/關弦數頂指",
+          "status": "present"
+        },
+        {
+          "name": "中醫四診",
+          "status": "present"
+        },
+        {
+          "name": "大便一天一行",
+          "status": "present"
+        },
+        {
+          "name": "成形",
+          "status": "present"
+        },
+        {
+          "name": "小便偶黃",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "absent"
+        },
+        {
+          "name": "耳鳴",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-047",
+      "age_group": "未記載",
+      "diagnosis": "左側肩部其他肩病灶、頸椎退化性脊椎炎未伴有脊髓病變或神經根病變",
+      "chief_complaint": "左側肩胛骨周圍疼痛,合併左手大拇指及食指麻感持續3個月",
+      "present_illness": "問診記錄：怕熱、口乾、口苦、多夢、早醒、緊張、煩躁、壓痛、平時怕熱易出汗、常感到口乾偶有口苦情形、一日飲水量約2500c.c、納可、食慾佳、眠可、偶多夢、隨著年紀增長越趨早醒、平均睡眠時長約5~6小時、睡姿習慣左側躺、今年四月開始、出現左側肩胛骨周圍疼痛合併左手大拇指及食指持續性麻感、左前臂肌肉力量略為喪失、病患容易緊張且易感煩躁、患有復發性關節炎、多關節發炎疼痛長達20餘年、一年前復建科診斷後縱韌帶鈣化、大便一日一行、成型、左側肩胛骨周圍疼痛,合併左手大拇指及食指麻感3個月。",
+      "tongue": "舌淡白、舌、苔黃偏乾厚",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "樂痛舒"
+      ],
+      "observations": [
+        {
+          "name": "怕熱",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "早醒",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "煩躁",
+          "status": "present"
+        },
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "平時怕熱易出汗",
+          "status": "present"
+        },
+        {
+          "name": "常感到口乾偶有口苦情形",
+          "status": "present"
+        },
+        {
+          "name": "一日飲水量約2500c.c",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "食慾佳",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "偶多夢",
+          "status": "present"
+        },
+        {
+          "name": "隨著年紀增長越趨早醒",
+          "status": "present"
+        },
+        {
+          "name": "平均睡眠時長約5~6小時",
+          "status": "present"
+        },
+        {
+          "name": "睡姿習慣左側躺",
+          "status": "present"
+        },
+        {
+          "name": "今年四月開始",
+          "status": "present"
+        },
+        {
+          "name": "出現左側肩胛骨周圍疼痛合併左手大拇指及食指持續性麻感",
+          "status": "present"
+        },
+        {
+          "name": "左前臂肌肉力量略為喪失",
+          "status": "present"
+        },
+        {
+          "name": "病患容易緊張且易感煩躁",
+          "status": "present"
+        },
+        {
+          "name": "患有復發性關節炎",
+          "status": "present"
+        },
+        {
+          "name": "多關節發炎疼痛長達20餘年",
+          "status": "present"
+        },
+        {
+          "name": "一年前復建科診斷後縱韌帶鈣化",
+          "status": "present"
+        },
+        {
+          "name": "大便一日一行",
+          "status": "present"
+        },
+        {
+          "name": "成型",
+          "status": "present"
+        },
+        {
+          "name": "左側肩胛骨周圍疼痛,合併左手大拇指及食指麻感3個月",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-048",
+      "age_group": "未記載",
+      "diagnosis": "嚴重特殊傳染性肺炎後的病況",
+      "chief_complaint": "11/11確診長新冠症狀",
+      "present_illness": "問診記錄：入睡困難、易醒、咳嗽、胸悶、口乾、喘、多夢、疲倦、便秘、大便乾硬、夜尿、喉嚨癢痰梗感導致咳嗽胸悶、味覺改變、納稍差、易喘、不易入睡多夢易醒、疲倦感、全身痠痛減緩、矢氣多、職業:電話行銷(講電話時間3-4小時)、便秘質硬小條(3天一次)、夜尿仍。",
+      "tongue": "淡紅、苔薄白、舌淡紅",
+      "pulse": "左脈關浮滑、右脈沉有力",
+      "patterns": [
+        "肺氣虛"
+      ],
+      "formulas": [
+        "止嗽散",
+        "生脈飲",
+        "麻子仁丸",
+        "中醫大抗冠方劑"
+      ],
+      "observations": [
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "咳嗽",
+          "status": "present"
+        },
+        {
+          "name": "胸悶",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "喘",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "疲倦",
+          "status": "present"
+        },
+        {
+          "name": "便秘",
+          "status": "present"
+        },
+        {
+          "name": "大便乾硬",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "喉嚨癢痰梗感導致咳嗽胸悶",
+          "status": "present"
+        },
+        {
+          "name": "味覺改變",
+          "status": "present"
+        },
+        {
+          "name": "納稍差",
+          "status": "present"
+        },
+        {
+          "name": "易喘",
+          "status": "present"
+        },
+        {
+          "name": "不易入睡多夢易醒",
+          "status": "present"
+        },
+        {
+          "name": "疲倦感",
+          "status": "present"
+        },
+        {
+          "name": "全身痠痛減緩",
+          "status": "present"
+        },
+        {
+          "name": "矢氣多",
+          "status": "present"
+        },
+        {
+          "name": "職業:電話行銷(講電話時間3-4小時)",
+          "status": "present"
+        },
+        {
+          "name": "便秘質硬小條(3天一次)",
+          "status": "present"
+        },
+        {
+          "name": "夜尿仍",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-049",
+      "age_group": "40–49",
+      "diagnosis": "慢性胃炎未伴有出血、歸類於他處幽門桿菌所致的疾病、胃食道逆性疾病未伴有食道炎",
+      "chief_complaint": "胃不舒加重三個月",
+      "present_illness": "問診記錄：胃不舒加重三個月。",
+      "tongue": "未記載",
+      "pulse": "右脈滑、左弦滑、左脈弦滑",
+      "patterns": [
+        "脾胃氣虛",
+        "濕熱"
+      ],
+      "formulas": [
+        "香砂六君子湯"
+      ],
+      "observations": [
+        {
+          "name": "胃不舒加重三個月",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-050",
+      "age_group": "未記載",
+      "diagnosis": "兒童期生理發育不符正常預期",
+      "chief_complaint": "擔心生長發育",
+      "present_illness": "問診記錄：眠平、:00睡、平素容易因過敏而影響睡眠、運動量足、一周七次、每次不到三十分鐘、平時自備餐具、便平、日 1行、父母從事製造業、大學畢業、服中藥後便溏、擔心生長發育。",
+      "tongue": "未記載",
+      "pulse": "脈滑弦",
+      "patterns": [
+        "濕熱",
+        "氣虛"
+      ],
+      "formulas": [
+        "知柏地黃丸",
+        "二陳湯",
+        "胃苓湯",
+        "生長發育四號方"
+      ],
+      "observations": [
+        {
+          "name": "眠平",
+          "status": "present"
+        },
+        {
+          "name": ":00睡",
+          "status": "present"
+        },
+        {
+          "name": "平素容易因過敏而影響睡眠",
+          "status": "present"
+        },
+        {
+          "name": "運動量足",
+          "status": "present"
+        },
+        {
+          "name": "一周七次",
+          "status": "present"
+        },
+        {
+          "name": "每次不到三十分鐘",
+          "status": "present"
+        },
+        {
+          "name": "平時自備餐具",
+          "status": "present"
+        },
+        {
+          "name": "便平",
+          "status": "present"
+        },
+        {
+          "name": "日 1行",
+          "status": "present"
+        },
+        {
+          "name": "父母從事製造業",
+          "status": "present"
+        },
+        {
+          "name": "大學畢業",
+          "status": "present"
+        },
+        {
+          "name": "服中藥後便溏",
+          "status": "present"
+        },
+        {
+          "name": "擔心生長發育",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-051",
+      "age_group": "未記載",
+      "diagnosis": "胃食道逆流性疾病、過敏性鼻炎",
+      "chief_complaint": "胃食道逆流已二天。打噴嚏,鼻塞",
+      "present_illness": "問診記錄：打噴嚏、鼻塞、口乾、近日困重、眼皮乾燥、胃食道逆流已二天、有少痰、稍口乾、胃食道逆流二天。",
+      "tongue": "未記載",
+      "pulse": "脈濡、數、脈數",
+      "patterns": [
+        "肝氣犯胃",
+        "風熱犯肺"
+      ],
+      "formulas": [
+        "烏貝散",
+        "旋覆代赭湯",
+        "二陳湯"
+      ],
+      "observations": [
+        {
+          "name": "打噴嚏",
+          "status": "present"
+        },
+        {
+          "name": "鼻塞",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "近日困重",
+          "status": "present"
+        },
+        {
+          "name": "眼皮乾燥",
+          "status": "present"
+        },
+        {
+          "name": "胃食道逆流已二天",
+          "status": "present"
+        },
+        {
+          "name": "有少痰",
+          "status": "present"
+        },
+        {
+          "name": "稍口乾",
+          "status": "present"
+        },
+        {
+          "name": "胃食道逆流二天",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-052",
+      "age_group": "未記載",
+      "diagnosis": "急性上呼吸道感染",
+      "chief_complaint": "咽痛數日",
+      "present_illness": "問診記錄：咽痛、淺眠、易醒、煩躁、壓力大、腰痠、工作壓力、腰酸、清醒、中等、弦滑、大便正常、小便正常。明確否認口苦。",
+      "tongue": "未記載",
+      "pulse": "未記載",
+      "patterns": [
+        "氣滯血瘀",
+        "肺胃熱盛"
+      ],
+      "formulas": [
+        "溫膽湯",
+        "散腫潰堅湯",
+        "柴胡疏肝湯",
+        "銀翹散"
+      ],
+      "observations": [
+        {
+          "name": "咽痛",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "煩躁",
+          "status": "present"
+        },
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "工作壓力",
+          "status": "present"
+        },
+        {
+          "name": "腰酸",
+          "status": "present"
+        },
+        {
+          "name": "清醒",
+          "status": "present"
+        },
+        {
+          "name": "中等",
+          "status": "present"
+        },
+        {
+          "name": "弦滑",
+          "status": "present"
+        },
+        {
+          "name": "大便正常",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-053",
+      "age_group": "未記載",
+      "diagnosis": "第三期慢性腎臟疾病(中度)、第二型糖尿病，伴有糖尿病的腎臟病變",
+      "chief_complaint": "主訴: 糖尿病用藥後體重上升8kg,並伴隨腹瀉",
+      "present_illness": "問診記錄：腹瀉、口乾、食慾不佳、腹痛、焦慮、水腫、聽力正常、咽乾、口乾口不苦、食慾差、微焦慮、下肢輕微水腫、略顯疲憊、下肢水腫、日1行、色淡黃正常。",
+      "tongue": "舌淡、苔薄膩少津",
+      "pulse": "脈右弦細數",
+      "patterns": [
+        "脾腎陽虛"
+      ],
+      "formulas": [
+        "理中湯",
+        "黃連解毒湯",
+        "香砂六君子湯"
+      ],
+      "observations": [
+        {
+          "name": "腹瀉",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "食慾不佳",
+          "status": "present"
+        },
+        {
+          "name": "腹痛",
+          "status": "present"
+        },
+        {
+          "name": "焦慮",
+          "status": "present"
+        },
+        {
+          "name": "水腫",
+          "status": "present"
+        },
+        {
+          "name": "聽力正常",
+          "status": "present"
+        },
+        {
+          "name": "咽乾",
+          "status": "present"
+        },
+        {
+          "name": "口乾口不苦",
+          "status": "present"
+        },
+        {
+          "name": "食慾差",
+          "status": "present"
+        },
+        {
+          "name": "微焦慮",
+          "status": "present"
+        },
+        {
+          "name": "下肢輕微水腫",
+          "status": "present"
+        },
+        {
+          "name": "略顯疲憊",
+          "status": "present"
+        },
+        {
+          "name": "下肢水腫",
+          "status": "present"
+        },
+        {
+          "name": "日1行",
+          "status": "present"
+        },
+        {
+          "name": "色淡黃正常",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-054",
+      "age_group": "40–49",
+      "diagnosis": "結腸惡性腫瘤",
+      "chief_complaint": "肛門出血已6個月以上",
+      "present_illness": "問診記錄：右肩痠痛、腹脹、口乾、食後腹脹、口:口乾情況減緩、食慾稍差、眠可、睡眠正常規律、情志可、近期易疲倦、排便蠕動慢、一日三行、小便量可、色淡黃、肛門出血6個月以上。",
+      "tongue": "舌淡紅、苔少有津",
+      "pulse": "脈沉弱",
+      "patterns": [
+        "脾胃氣虛",
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "四君子湯",
+        "天麻鉤藤飲",
+        "甘露消毒丹",
+        "小柴胡湯"
+      ],
+      "observations": [
+        {
+          "name": "右肩痠痛",
+          "status": "present"
+        },
+        {
+          "name": "腹脹",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "食後腹脹",
+          "status": "present"
+        },
+        {
+          "name": "口:口乾情況減緩",
+          "status": "present"
+        },
+        {
+          "name": "食慾稍差",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "睡眠正常規律",
+          "status": "present"
+        },
+        {
+          "name": "情志可",
+          "status": "present"
+        },
+        {
+          "name": "近期易疲倦",
+          "status": "present"
+        },
+        {
+          "name": "排便蠕動慢",
+          "status": "present"
+        },
+        {
+          "name": "一日三行",
+          "status": "present"
+        },
+        {
+          "name": "小便量可",
+          "status": "present"
+        },
+        {
+          "name": "色淡黃",
+          "status": "present"
+        },
+        {
+          "name": "肛門出血6個月以上",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-055",
+      "age_group": "未記載",
+      "diagnosis": "肩部關節痛",
+      "chief_complaint": "兩肩長年痠痛,反覆發作",
+      "present_illness": "問診記錄：雙側肩頸痠痛、壓痛、腹症平、熬夜晚睡、雙側肩頸、雙上肢肌群緊繃、痠痛、多年且反覆發作、突發、讀書長時間維持同一姿勢、休息、二便可、一日一行、質平。",
+      "tongue": "舌淡紅偏暗、苔薄白",
+      "pulse": "雙關弦滑尺脈弱",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "金黃散"
+      ],
+      "observations": [
+        {
+          "name": "雙側肩頸痠痛",
+          "status": "present"
+        },
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "腹症平",
+          "status": "present"
+        },
+        {
+          "name": "熬夜晚睡",
+          "status": "present"
+        },
+        {
+          "name": "雙側肩頸",
+          "status": "present"
+        },
+        {
+          "name": "雙上肢肌群緊繃",
+          "status": "present"
+        },
+        {
+          "name": "痠痛",
+          "status": "present"
+        },
+        {
+          "name": "多年且反覆發作",
+          "status": "present"
+        },
+        {
+          "name": "突發",
+          "status": "present"
+        },
+        {
+          "name": "讀書長時間維持同一姿勢",
+          "status": "present"
+        },
+        {
+          "name": "休息",
+          "status": "present"
+        },
+        {
+          "name": "二便可",
+          "status": "present"
+        },
+        {
+          "name": "一日一行",
+          "status": "present"
+        },
+        {
+          "name": "質平",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-056",
+      "age_group": "未記載",
+      "diagnosis": "月經過少",
+      "chief_complaint": "經量減少多年",
+      "present_illness": "問診記錄：下腹疼痛、腰痠、經前乳脹、Day1經痛、下腹疼痛(抽痛)、納可、晚睡(約2-3AM)、經期情緒變化較大、經期第一天腰痠、經前腰痠、大便2日一行、經量減少多年。明確否認口乾。",
+      "tongue": "舌黯、苔膩微少",
+      "pulse": "左弦滑、右弦細、左脈弦滑、右脈弦細",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "天王補心丹",
+        "當歸芍藥散",
+        "銀翹散"
+      ],
+      "observations": [
+        {
+          "name": "下腹疼痛",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "經前乳脹",
+          "status": "present"
+        },
+        {
+          "name": "Day1經痛",
+          "status": "present"
+        },
+        {
+          "name": "下腹疼痛(抽痛)",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "晚睡(約2-3AM)",
+          "status": "present"
+        },
+        {
+          "name": "經期情緒變化較大",
+          "status": "present"
+        },
+        {
+          "name": "經期第一天腰痠",
+          "status": "present"
+        },
+        {
+          "name": "經前腰痠",
+          "status": "present"
+        },
+        {
+          "name": "大便2日一行",
+          "status": "present"
+        },
+        {
+          "name": "經量減少多年",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-057",
+      "age_group": "未記載",
+      "diagnosis": "青春期過早",
+      "chief_complaint": "擔心生長發育,第二性徵開始發育",
+      "present_illness": "問診記錄：食慾不佳、多夢、聽力正常、納差、沒胃口食量小(1/3個便當)**、眠可、入睡可、會打呼、夢多**、台中榮總 BA10y6m (Yen 11y) CA10y7m 10y6m27d♀、cm(3-15%)、kg(15-50%)、BMI:15.8(15-50%) TPR:(112/04/03)BP:76/54mmHg、pulse:66/min、BH:133cm、BW:28kg、BMI:15.8、/02台中榮總、超音波檢查 1. Uterus: Size: 0.523 x 4.53 x 1.39 x 3.20 cm= 10.5 cm3 Bladder: ■Distended 2. Right Adnexa Size: 1.89 x 1.45 cm、■follicle: 5.93 mm in diameter 3. Left Adnexa Size: 2.21 x 1.26 cm、■follicle: 5.37 mm in diameter Impression: Mid-Pubertal sized uterus、Tanner III~IV Small follicular cysts in bilateral adnexae、大便二日一行、成形、色淡黃正常、擔心生長發育,第二性徵開始發育。",
+      "tongue": "舌尖紅、苔少薄白",
+      "pulse": "脈弦數、寸偏沉",
+      "patterns": [
+        "脾胃氣虛"
+      ],
+      "formulas": [
+        "柴胡桂枝湯",
+        "六君子湯",
+        "生長一號方"
+      ],
+      "observations": [
+        {
+          "name": "食慾不佳",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "聽力正常",
+          "status": "present"
+        },
+        {
+          "name": "納差",
+          "status": "present"
+        },
+        {
+          "name": "沒胃口食量小(1/3個便當)**",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "入睡可",
+          "status": "present"
+        },
+        {
+          "name": "會打呼",
+          "status": "present"
+        },
+        {
+          "name": "夢多**",
+          "status": "present"
+        },
+        {
+          "name": "台中榮總 BA10y6m (Yen 11y) CA10y7m 10y6m27d♀",
+          "status": "present"
+        },
+        {
+          "name": "cm(3-15%)",
+          "status": "present"
+        },
+        {
+          "name": "kg(15-50%)",
+          "status": "present"
+        },
+        {
+          "name": "BMI:15.8(15-50%) TPR:(112/04/03)BP:76/54mmHg",
+          "status": "present"
+        },
+        {
+          "name": "pulse:66/min",
+          "status": "present"
+        },
+        {
+          "name": "BH:133cm",
+          "status": "present"
+        },
+        {
+          "name": "BW:28kg",
+          "status": "present"
+        },
+        {
+          "name": "BMI:15.8",
+          "status": "present"
+        },
+        {
+          "name": "/02台中榮總",
+          "status": "present"
+        },
+        {
+          "name": "超音波檢查 1. Uterus: Size: 0.523 x 4.53 x 1.39 x 3.20 cm= 10.5 cm3 Bladder: ■Distended 2. Right Adnexa Size: 1.89 x 1.45 cm",
+          "status": "present"
+        },
+        {
+          "name": "■follicle: 5.93 mm in diameter 3. Left Adnexa Size: 2.21 x 1.26 cm",
+          "status": "present"
+        },
+        {
+          "name": "■follicle: 5.37 mm in diameter Impression: Mid-Pubertal sized uterus",
+          "status": "present"
+        },
+        {
+          "name": "Tanner III~IV Small follicular cysts in bilateral adnexae",
+          "status": "present"
+        },
+        {
+          "name": "大便二日一行",
+          "status": "present"
+        },
+        {
+          "name": "成形",
+          "status": "present"
+        },
+        {
+          "name": "色淡黃正常",
+          "status": "present"
+        },
+        {
+          "name": "擔心生長發育,第二性徵開始發育",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-058",
+      "age_group": "未記載",
+      "diagnosis": "下背和骨盆挫傷",
+      "chief_complaint": "右腰臀酸痛已一個多月。",
+      "present_illness": "問診記錄：腹脹、失眠、壓力大、腰痠、偶腹脹、食慾可、眠差、晚睡、工作壓力大、LMP:110/02/16、I/D:30/5-6、量可、經來腰痠、右腰臀挫傷、間歇性痠痛、精神可、偶疲累、a. 大便一日一至二行、色黃成條、b. 小便平常、右腰臀酸痛一個多月。",
+      "tongue": "舌淡紅、稍胖大、苔薄白",
+      "pulse": "右關弦、左關弦細",
+      "patterns": [
+        "氣滯血瘀",
+        "脾胃氣虛"
+      ],
+      "formulas": [
+        "白芷痠痛膏",
+        "身痛逐瘀湯",
+        "腫痛安",
+        "樂痛舒"
+      ],
+      "observations": [
+        {
+          "name": "腹脹",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "偶腹脹",
+          "status": "present"
+        },
+        {
+          "name": "食慾可",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "晚睡",
+          "status": "present"
+        },
+        {
+          "name": "工作壓力大",
+          "status": "present"
+        },
+        {
+          "name": "LMP:110/02/16",
+          "status": "present"
+        },
+        {
+          "name": "I/D:30/5-6",
+          "status": "present"
+        },
+        {
+          "name": "量可",
+          "status": "present"
+        },
+        {
+          "name": "經來腰痠",
+          "status": "present"
+        },
+        {
+          "name": "右腰臀挫傷",
+          "status": "present"
+        },
+        {
+          "name": "間歇性痠痛",
+          "status": "present"
+        },
+        {
+          "name": "精神可",
+          "status": "present"
+        },
+        {
+          "name": "偶疲累",
+          "status": "present"
+        },
+        {
+          "name": "a. 大便一日一至二行",
+          "status": "present"
+        },
+        {
+          "name": "色黃成條",
+          "status": "present"
+        },
+        {
+          "name": "b. 小便平常",
+          "status": "present"
+        },
+        {
+          "name": "右腰臀酸痛一個多月",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-059",
+      "age_group": "未記載",
+      "diagnosis": "右側肩部關節痛",
+      "chief_complaint": "右肩疼痛數天",
+      "present_illness": "問診記錄：右肩疼痛、尿急、尿痛、壓痛、右肩活動時疼痛、納可、大便1日1行、色黃成條狀。",
+      "tongue": "舌略紅、舌尖朱點、苔薄白、邊薄",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "右肩疼痛",
+          "status": "present"
+        },
+        {
+          "name": "尿急",
+          "status": "present"
+        },
+        {
+          "name": "尿痛",
+          "status": "present"
+        },
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "右肩活動時疼痛",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "大便1日1行",
+          "status": "present"
+        },
+        {
+          "name": "色黃成條狀",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-060",
+      "age_group": "未記載",
+      "diagnosis": "廣泛性發展障礙症、腦先天性畸形",
+      "chief_complaint": "改善發展遲緩",
+      "present_illness": "問診記錄：進食緩慢、睡眠佳、大便2-3日一行、質地糊軟、改善發展遲緩。",
+      "tongue": "舌淡紅、苔白",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "腎陰虛"
+      ],
+      "formulas": [
+        "麻子仁丸",
+        "辛夷清肺湯",
+        "竹茹溫膽湯"
+      ],
+      "observations": [
+        {
+          "name": "進食緩慢",
+          "status": "present"
+        },
+        {
+          "name": "睡眠佳",
+          "status": "present"
+        },
+        {
+          "name": "大便2-3日一行",
+          "status": "present"
+        },
+        {
+          "name": "質地糊軟",
+          "status": "present"
+        },
+        {
+          "name": "改善發展遲緩",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-061",
+      "age_group": "30–39",
+      "diagnosis": "陰道其他特定非炎性疾患",
+      "chief_complaint": "三天前起陰道有綠稠分泌物。",
+      "present_illness": "問診記錄：自覺燥熱、二便平、眠尚可、三天前起陰道有綠稠分泌物。",
+      "tongue": "舌體紅、苔薄白、有朱點",
+      "pulse": "寸弦、關細",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "知柏地黃丸"
+      ],
+      "observations": [
+        {
+          "name": "自覺燥熱",
+          "status": "present"
+        },
+        {
+          "name": "二便平",
+          "status": "present"
+        },
+        {
+          "name": "眠尚可",
+          "status": "present"
+        },
+        {
+          "name": "三天前起陰道有綠稠分泌物",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-062",
+      "age_group": "未記載",
+      "diagnosis": "非特定的失眠症",
+      "chief_complaint": "眠易醒,不易再入睡已20年",
+      "present_illness": "問診記錄：易醒、頭暈、頭痛、咳嗽、喘、水腫、頭暈頭痛 HTN、鼻過敏變天感冒咳嗽則喘、換季氣喘咳半年一年前、水腫兩年前、下肢水腫、Kg(1yr) 胃酸脹氣 GERD 已2年、眠易醒、不易再入睡、易被聲音吵醒、G4P4 NSD on 2018 I/D: 30/5 LMP:110/4/6、玉米鬚水症減、大便日一行軟成形。",
+      "tongue": "舌淡紅、苔薄白少偏左",
+      "pulse": "脈中取、關擴散",
+      "patterns": [
+        "肝陽上亢"
+      ],
+      "formulas": [
+        "麻杏甘石湯",
+        "麻子仁丸",
+        "真武湯",
+        "桂枝加龍骨牡蠣湯"
+      ],
+      "observations": [
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "頭暈",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "咳嗽",
+          "status": "present"
+        },
+        {
+          "name": "喘",
+          "status": "present"
+        },
+        {
+          "name": "水腫",
+          "status": "present"
+        },
+        {
+          "name": "頭暈頭痛 HTN",
+          "status": "present"
+        },
+        {
+          "name": "鼻過敏變天感冒咳嗽則喘",
+          "status": "present"
+        },
+        {
+          "name": "換季氣喘咳半年一年前",
+          "status": "present"
+        },
+        {
+          "name": "水腫兩年前",
+          "status": "present"
+        },
+        {
+          "name": "下肢水腫",
+          "status": "present"
+        },
+        {
+          "name": "Kg(1yr) 胃酸脹氣 GERD 已2年",
+          "status": "present"
+        },
+        {
+          "name": "眠易醒",
+          "status": "present"
+        },
+        {
+          "name": "不易再入睡",
+          "status": "present"
+        },
+        {
+          "name": "易被聲音吵醒",
+          "status": "present"
+        },
+        {
+          "name": "G4P4 NSD on 2018 I/D: 30/5 LMP:110/4/6",
+          "status": "present"
+        },
+        {
+          "name": "玉米鬚水症減",
+          "status": "present"
+        },
+        {
+          "name": "大便日一行軟成形",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-063",
+      "age_group": "未記載",
+      "diagnosis": "抗腫瘤及免疫抑制藥物不良反應",
+      "chief_complaint": "化療口服副作用,腹瀉吃飽易脹,手皮乾燥 破裂 疲倦",
+      "present_illness": "問診記錄：腹瀉、疲倦、食慾尚可、腹瀉服藥後減緩成2行、吃飽易脹、化療口服副作用、手皮乾燥、破裂、服前方後腹瀉少作、大便2-3行。",
+      "tongue": "舌紅多津、苔薄少-稍紅、苔前薄根剝、苔、苔白齒痕",
+      "pulse": "脈滑數-弦-軟-弦-細軟-細軟- 細軟 -沉-沉弦",
+      "patterns": [
+        "脾氣虛"
+      ],
+      "formulas": [
+        "參苓白朮散",
+        "安中散"
+      ],
+      "observations": [
+        {
+          "name": "腹瀉",
+          "status": "present"
+        },
+        {
+          "name": "疲倦",
+          "status": "present"
+        },
+        {
+          "name": "食慾尚可",
+          "status": "present"
+        },
+        {
+          "name": "腹瀉服藥後減緩成2行",
+          "status": "present"
+        },
+        {
+          "name": "吃飽易脹",
+          "status": "present"
+        },
+        {
+          "name": "化療口服副作用",
+          "status": "present"
+        },
+        {
+          "name": "手皮乾燥",
+          "status": "present"
+        },
+        {
+          "name": "破裂",
+          "status": "present"
+        },
+        {
+          "name": "服前方後腹瀉少作",
+          "status": "present"
+        },
+        {
+          "name": "大便2-3行",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-064",
+      "age_group": "60+",
+      "diagnosis": "尿滯留",
+      "chief_complaint": "小便頻數已三十年",
+      "present_illness": "問診記錄：頻尿、怕熱、耳鳴、胸痛、失眠、多夢、淺眠、易醒、緊張、尿量少、腰痠、腰痛、手足冰冷、水腫、夏天怕熱、前胸後背常浸濕衣服、半夜起床耳鳴低鳴聲、目乾澀、有服用景安寧、心跳較慢、納稍少、體重減輕、kg→48kg/一年、食後胃脘脹、因怕常跑廁所而飲水量少、眠差(2130-0700)、夢多、眠淺易醒、易緊張、腰酸、手腳冰冷、足冷不過膝、穿襪子症狀可緩解、手冷不過腕、手掌及手指冰冷、戴手套以及泡熱水症狀緩解、手指頭稍乾裂、腳踝稍浮腫、pitting edema: (+)、L4-5 spodyloysis、A. 大便正常、一日1行、質成形、B. 小便頻數、小便常有解不淨感(餘瀝感)、色黃、小便頻數三十年。",
+      "tongue": "淡紅、舌體稍瘦薄、薄、怒張、舌淡紅、苔薄",
+      "pulse": "右寸滑關滑尺沉細、左寸滑、關弦細、尺弦>左右脈細、滑、右寸滑、關滑、尺沉細、尺弦、脈滑",
+      "patterns": [
+        "脾胃氣虛",
+        "腎陽虛"
+      ],
+      "formulas": [
+        "生脈飲",
+        "小建中湯",
+        "歸脾湯"
+      ],
+      "observations": [
+        {
+          "name": "頻尿",
+          "status": "present"
+        },
+        {
+          "name": "怕熱",
+          "status": "present"
+        },
+        {
+          "name": "耳鳴",
+          "status": "present"
+        },
+        {
+          "name": "胸痛",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "尿量少",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "腰痛",
+          "status": "present"
+        },
+        {
+          "name": "手足冰冷",
+          "status": "present"
+        },
+        {
+          "name": "水腫",
+          "status": "present"
+        },
+        {
+          "name": "夏天怕熱",
+          "status": "present"
+        },
+        {
+          "name": "前胸後背常浸濕衣服",
+          "status": "present"
+        },
+        {
+          "name": "半夜起床耳鳴低鳴聲",
+          "status": "present"
+        },
+        {
+          "name": "目乾澀",
+          "status": "present"
+        },
+        {
+          "name": "有服用景安寧",
+          "status": "present"
+        },
+        {
+          "name": "心跳較慢",
+          "status": "present"
+        },
+        {
+          "name": "納稍少",
+          "status": "present"
+        },
+        {
+          "name": "體重減輕",
+          "status": "present"
+        },
+        {
+          "name": "kg→48kg/一年",
+          "status": "present"
+        },
+        {
+          "name": "食後胃脘脹",
+          "status": "present"
+        },
+        {
+          "name": "因怕常跑廁所而飲水量少",
+          "status": "present"
+        },
+        {
+          "name": "眠差(2130-0700)",
+          "status": "present"
+        },
+        {
+          "name": "夢多",
+          "status": "present"
+        },
+        {
+          "name": "眠淺易醒",
+          "status": "present"
+        },
+        {
+          "name": "易緊張",
+          "status": "present"
+        },
+        {
+          "name": "腰酸",
+          "status": "present"
+        },
+        {
+          "name": "手腳冰冷",
+          "status": "present"
+        },
+        {
+          "name": "足冷不過膝",
+          "status": "present"
+        },
+        {
+          "name": "穿襪子症狀可緩解",
+          "status": "present"
+        },
+        {
+          "name": "手冷不過腕",
+          "status": "present"
+        },
+        {
+          "name": "手掌及手指冰冷",
+          "status": "present"
+        },
+        {
+          "name": "戴手套以及泡熱水症狀緩解",
+          "status": "present"
+        },
+        {
+          "name": "手指頭稍乾裂",
+          "status": "present"
+        },
+        {
+          "name": "腳踝稍浮腫",
+          "status": "present"
+        },
+        {
+          "name": "pitting edema: (+)",
+          "status": "present"
+        },
+        {
+          "name": "L4-5 spodyloysis",
+          "status": "present"
+        },
+        {
+          "name": "A. 大便正常",
+          "status": "present"
+        },
+        {
+          "name": "一日1行",
+          "status": "present"
+        },
+        {
+          "name": "質成形",
+          "status": "present"
+        },
+        {
+          "name": "B. 小便頻數",
+          "status": "present"
+        },
+        {
+          "name": "小便常有解不淨感(餘瀝感)",
+          "status": "present"
+        },
+        {
+          "name": "色黃",
+          "status": "present"
+        },
+        {
+          "name": "小便頻數三十年",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-065",
+      "age_group": "未記載",
+      "diagnosis": "外側肱上髁炎",
+      "chief_complaint": "右手肘痠痛近一個月",
+      "present_illness": "問診記錄：肘痠痛、四肢疼痛、壓痛、睡眠正常、情志正常、二便正常。明確否認口乾、失眠。",
+      "tongue": "舌微紅、苔、少、有津、苔少",
+      "pulse": "脈數、右關有力、左脈細",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "疏經活血湯",
+        "芍藥甘草湯"
+      ],
+      "observations": [
+        {
+          "name": "肘痠痛",
+          "status": "present"
+        },
+        {
+          "name": "四肢疼痛",
+          "status": "present"
+        },
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "睡眠正常",
+          "status": "present"
+        },
+        {
+          "name": "情志正常",
+          "status": "present"
+        },
+        {
+          "name": "二便正常",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "absent"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-066",
+      "age_group": "未記載",
+      "diagnosis": "咳嗽",
+      "chief_complaint": "2024.02.26感冒後卡痰咳嗽。",
+      "present_illness": "問診記錄：咳嗽、頭痛、失眠、入睡困難、淺眠、易醒、多夢、吹冷風會頭痛、頭痛(4分)、眠差、入睡困難淺眠易醒多夢、經前下腹悶痛會預防性吃止痛藥(站立 平躺 熱敷緩解舒緩)、月經規律、I/D:24/6、經期頭尾血偏暗、一元、五元硬幣大小血塊、月經後一星期透明/白稀偶稠帶下、偶炸、每日手搖熱飲。",
+      "tongue": "舌淡紅、苔黃膩中根黑",
+      "pulse": "左右寸浮、右數、雙寸浮、右脈數",
+      "patterns": [
+        "風熱犯肺"
+      ],
+      "formulas": [
+        "定喘湯",
+        "杏蘇飲"
+      ],
+      "observations": [
+        {
+          "name": "咳嗽",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "吹冷風會頭痛",
+          "status": "present"
+        },
+        {
+          "name": "頭痛(4分)",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難淺眠易醒多夢",
+          "status": "present"
+        },
+        {
+          "name": "經前下腹悶痛會預防性吃止痛藥(站立 平躺 熱敷緩解舒緩)",
+          "status": "present"
+        },
+        {
+          "name": "月經規律",
+          "status": "present"
+        },
+        {
+          "name": "I/D:24/6",
+          "status": "present"
+        },
+        {
+          "name": "經期頭尾血偏暗",
+          "status": "present"
+        },
+        {
+          "name": "一元",
+          "status": "present"
+        },
+        {
+          "name": "五元硬幣大小血塊",
+          "status": "present"
+        },
+        {
+          "name": "月經後一星期透明/白稀偶稠帶下",
+          "status": "present"
+        },
+        {
+          "name": "偶炸",
+          "status": "present"
+        },
+        {
+          "name": "每日手搖熱飲",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-067",
+      "age_group": "未記載",
+      "diagnosis": "月經不規則",
+      "chief_complaint": "月經不規律",
+      "present_illness": "問診記錄：咽癢、咳嗽、眠平、納平、月經不規律。",
+      "tongue": "舌淡紅、舌尖有朱點、有齒痕、苔薄白、齒痕",
+      "pulse": "脈沉緊、右尺滑",
+      "patterns": [
+        "氣虛血瘀"
+      ],
+      "formulas": [
+        "聖愈湯",
+        "天王補心丹",
+        "生脈飲",
+        "左歸丸",
+        "少腹逐瘀湯"
+      ],
+      "observations": [
+        {
+          "name": "咽癢",
+          "status": "present"
+        },
+        {
+          "name": "咳嗽",
+          "status": "present"
+        },
+        {
+          "name": "眠平",
+          "status": "present"
+        },
+        {
+          "name": "納平",
+          "status": "present"
+        },
+        {
+          "name": "月經不規律",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-068",
+      "age_group": "60+",
+      "diagnosis": "下背痛",
+      "chief_complaint": "雙側腰痛3-4年",
+      "present_illness": "問診記錄：雙側腰痛、淺眠、易醒、壓力大、腰痛、淺眠易醒、工作壓力大。",
+      "tongue": "舌淡紅、苔薄黃",
+      "pulse": "脈浮細",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "加味樂痛舒"
+      ],
+      "observations": [
+        {
+          "name": "雙側腰痛",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "腰痛",
+          "status": "present"
+        },
+        {
+          "name": "淺眠易醒",
+          "status": "present"
+        },
+        {
+          "name": "工作壓力大",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-069",
+      "age_group": "40–49",
+      "diagnosis": "女性乳房未明示部位惡性腫瘤",
+      "chief_complaint": "乳癌化療後身倦、噁心、嘔吐、腹瀉已1天。",
+      "present_illness": "問診記錄：噁心、嘔吐、腹瀉、泛酸、失眠、早醒、水腫、泛酸少、上脘脹、眠差、眠易早醒4-5am、足底任地痛、言語無力、身倦、音啞、腹瀉緩、水腫明顯、溲味重。",
+      "tongue": "無看",
+      "pulse": "左寸沉、關偏內弦、尺12弦. 右寸滑弦、尺12弦",
+      "patterns": [
+        "脾胃氣虛"
+      ],
+      "formulas": [
+        "炙甘草湯",
+        "旋覆代赭湯"
+      ],
+      "observations": [
+        {
+          "name": "噁心",
+          "status": "present"
+        },
+        {
+          "name": "嘔吐",
+          "status": "present"
+        },
+        {
+          "name": "腹瀉",
+          "status": "present"
+        },
+        {
+          "name": "泛酸",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "早醒",
+          "status": "present"
+        },
+        {
+          "name": "水腫",
+          "status": "present"
+        },
+        {
+          "name": "泛酸少",
+          "status": "present"
+        },
+        {
+          "name": "上脘脹",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "眠易早醒4-5am",
+          "status": "present"
+        },
+        {
+          "name": "足底任地痛",
+          "status": "present"
+        },
+        {
+          "name": "言語無力",
+          "status": "present"
+        },
+        {
+          "name": "身倦",
+          "status": "present"
+        },
+        {
+          "name": "音啞",
+          "status": "present"
+        },
+        {
+          "name": "腹瀉緩",
+          "status": "present"
+        },
+        {
+          "name": "水腫明顯",
+          "status": "present"
+        },
+        {
+          "name": "溲味重",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-070",
+      "age_group": "未記載",
+      "diagnosis": "腹部鼓脹(氣源性)",
+      "chief_complaint": "腹脹",
+      "present_illness": "問診記錄：腹脹、大便稀軟、食慾正常、眠可、情志平常、工作為家管、大便好解不硬偏軟散、小便正常。",
+      "tongue": "舌淡紅質裂、苔白有津",
+      "pulse": "脈沉寸弦浮",
+      "patterns": [
+        "脾胃氣虛"
+      ],
+      "formulas": [
+        "四逆散",
+        "保和丸",
+        "黃耆健中湯",
+        "半夏瀉心湯"
+      ],
+      "observations": [
+        {
+          "name": "腹脹",
+          "status": "present"
+        },
+        {
+          "name": "大便稀軟",
+          "status": "present"
+        },
+        {
+          "name": "食慾正常",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "情志平常",
+          "status": "present"
+        },
+        {
+          "name": "工作為家管",
+          "status": "present"
+        },
+        {
+          "name": "大便好解不硬偏軟散",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-071",
+      "age_group": "未記載",
+      "diagnosis": "非特定的失眠症",
+      "chief_complaint": "眠淺易醒反覆發作已2個月。",
+      "present_illness": "問診記錄：淺眠、易醒、緊張、雙膝痠、全身無力、目不乾澀、咽不乾、易緊張、雙膝痠軟無力。明確否認腹脹。",
+      "tongue": "舌淡紅、尖紅、質稍裂、苔薄白、苔、邊少、舌質稍裂",
+      "pulse": "未記載",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "六味地黃丸",
+        "甘露飲"
+      ],
+      "observations": [
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "雙膝痠",
+          "status": "present"
+        },
+        {
+          "name": "全身無力",
+          "status": "present"
+        },
+        {
+          "name": "目不乾澀",
+          "status": "present"
+        },
+        {
+          "name": "咽不乾",
+          "status": "present"
+        },
+        {
+          "name": "易緊張",
+          "status": "present"
+        },
+        {
+          "name": "雙膝痠軟無力",
+          "status": "present"
+        },
+        {
+          "name": "腹脹",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-072",
+      "age_group": "未記載",
+      "diagnosis": "功能性消化不良",
+      "chief_complaint": "腹痛8個月餘",
+      "present_illness": "問診記錄：腹痛、納可、眠可、成形質可、排便一日1-2行、小便可。明確否認失眠。",
+      "tongue": "舌淡紅、尖紅、苔薄白",
+      "pulse": "脈弦滑、左寸關頂指、尺不足、右弦滑、頂指、右脈弦滑",
+      "patterns": [
+        "脾胃氣虛",
+        "肝氣鬱結"
+      ],
+      "formulas": [
+        "旋覆代赭湯",
+        "四逆散",
+        "冰片三倍散"
+      ],
+      "observations": [
+        {
+          "name": "腹痛",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "成形質可",
+          "status": "present"
+        },
+        {
+          "name": "排便一日1-2行",
+          "status": "present"
+        },
+        {
+          "name": "小便可",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-073",
+      "age_group": "未記載",
+      "diagnosis": "厭食",
+      "chief_complaint": "食慾不振已一年多。",
+      "present_illness": "問診記錄：食慾不佳、頭暈、口苦、眼乾、眼睛乾澀、平素納差、眠可、大便正常、質正常、食慾不振一年多。明確否認咳嗽、口乾、失眠。",
+      "tongue": "舌淡紅、邊有齒痕、苔白膩",
+      "pulse": "脈滑",
+      "patterns": [
+        "脾胃氣虛"
+      ],
+      "formulas": [
+        "四君子湯",
+        "薏苡仁湯"
+      ],
+      "observations": [
+        {
+          "name": "食慾不佳",
+          "status": "present"
+        },
+        {
+          "name": "頭暈",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "present"
+        },
+        {
+          "name": "眼乾",
+          "status": "present"
+        },
+        {
+          "name": "眼睛乾澀",
+          "status": "present"
+        },
+        {
+          "name": "平素納差",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "大便正常",
+          "status": "present"
+        },
+        {
+          "name": "質正常",
+          "status": "present"
+        },
+        {
+          "name": "食慾不振一年多",
+          "status": "present"
+        },
+        {
+          "name": "咳嗽",
+          "status": "absent"
+        },
+        {
+          "name": "口乾",
+          "status": "absent"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-074",
+      "age_group": "未記載",
+      "diagnosis": "功能性消化不良",
+      "chief_complaint": "腹脹數月",
+      "present_illness": "問診記錄：腹脹、偏瘦、頭痛、鼻塞、流鼻水、心悸、大便稀軟、尿量少、夜尿、唇紅、流涕鼻水、口較乾欲飲、咽微乾、音啞、納平、意識清醒、四肢溫、有津、#聞診、#問診、##五官、##二便、#切診、##右寸浮緊滑、便軟散、一日一行、小便量少色淡黃、夜尿一行。",
+      "tongue": "舌淡紅朱點、苔薄膩尖少、有津",
+      "pulse": "未記載",
+      "patterns": [
+        "脾氣虛",
+        "腎氣虛"
+      ],
+      "formulas": [
+        "女科柏子仁丸",
+        "當歸芍藥散",
+        "味地黃丸",
+        "半夏瀉心湯"
+      ],
+      "observations": [
+        {
+          "name": "腹脹",
+          "status": "present"
+        },
+        {
+          "name": "偏瘦",
+          "status": "present"
+        },
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "鼻塞",
+          "status": "present"
+        },
+        {
+          "name": "流鼻水",
+          "status": "present"
+        },
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "大便稀軟",
+          "status": "present"
+        },
+        {
+          "name": "尿量少",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "唇紅",
+          "status": "present"
+        },
+        {
+          "name": "流涕鼻水",
+          "status": "present"
+        },
+        {
+          "name": "口較乾欲飲",
+          "status": "present"
+        },
+        {
+          "name": "咽微乾",
+          "status": "present"
+        },
+        {
+          "name": "音啞",
+          "status": "present"
+        },
+        {
+          "name": "納平",
+          "status": "present"
+        },
+        {
+          "name": "意識清醒",
+          "status": "present"
+        },
+        {
+          "name": "四肢溫",
+          "status": "present"
+        },
+        {
+          "name": "有津",
+          "status": "present"
+        },
+        {
+          "name": "#聞診",
+          "status": "present"
+        },
+        {
+          "name": "#問診",
+          "status": "present"
+        },
+        {
+          "name": "##五官",
+          "status": "present"
+        },
+        {
+          "name": "##二便",
+          "status": "present"
+        },
+        {
+          "name": "#切診",
+          "status": "present"
+        },
+        {
+          "name": "##右寸浮緊滑",
+          "status": "present"
+        },
+        {
+          "name": "便軟散",
+          "status": "present"
+        },
+        {
+          "name": "一日一行",
+          "status": "present"
+        },
+        {
+          "name": "小便量少色淡黃",
+          "status": "present"
+        },
+        {
+          "name": "夜尿一行",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-075",
+      "age_group": "0–17",
+      "diagnosis": "兒童期生理發育不符正常預期、過敏性鼻炎",
+      "chief_complaint": "擔心生長發育",
+      "present_illness": "問診記錄：鼻塞、流鼻水、偏瘦、鼻過敏、流鼻涕、晚上11點睡、早上6點起床、身材瘦小、身高155cm(3-15%)體重35kg(<3%)、右側鎖骨Ewing sarcoma、大便2-3日一行、擔心生長發育。",
+      "tongue": "舌淡紅、苔薄白",
+      "pulse": "脈浮細弱",
+      "patterns": [
+        "脾胃氣虛"
+      ],
+      "formulas": [
+        "柴胡桂枝湯",
+        "玉屏風散",
+        "生長二號方"
+      ],
+      "observations": [
+        {
+          "name": "鼻塞",
+          "status": "present"
+        },
+        {
+          "name": "流鼻水",
+          "status": "present"
+        },
+        {
+          "name": "偏瘦",
+          "status": "present"
+        },
+        {
+          "name": "鼻過敏",
+          "status": "present"
+        },
+        {
+          "name": "流鼻涕",
+          "status": "present"
+        },
+        {
+          "name": "晚上11點睡",
+          "status": "present"
+        },
+        {
+          "name": "早上6點起床",
+          "status": "present"
+        },
+        {
+          "name": "身材瘦小",
+          "status": "present"
+        },
+        {
+          "name": "身高155cm(3-15%)體重35kg(<3%)",
+          "status": "present"
+        },
+        {
+          "name": "右側鎖骨Ewing sarcoma",
+          "status": "present"
+        },
+        {
+          "name": "大便2-3日一行",
+          "status": "present"
+        },
+        {
+          "name": "擔心生長發育",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-076",
+      "age_group": "未記載",
+      "diagnosis": "肌少症",
+      "chief_complaint": "雙下肢無力,走路不穩數年",
+      "present_illness": "問診記錄：雙下肢無力、步態不穩、素食、少食豆類、第三第四腰椎滑脫、右臀痛。",
+      "tongue": "舌淡紅、苔薄、津少",
+      "pulse": "脈數、關弦、尺細弱、寸弱、尺細數",
+      "patterns": [
+        "脾胃氣虛"
+      ],
+      "formulas": [
+        "平胃散",
+        "八正散",
+        "歸脾湯",
+        "薏苡仁湯",
+        "補中益氣湯"
+      ],
+      "observations": [
+        {
+          "name": "雙下肢無力",
+          "status": "present"
+        },
+        {
+          "name": "步態不穩",
+          "status": "present"
+        },
+        {
+          "name": "素食",
+          "status": "present"
+        },
+        {
+          "name": "少食豆類",
+          "status": "present"
+        },
+        {
+          "name": "第三第四腰椎滑脫",
+          "status": "present"
+        },
+        {
+          "name": "右臀痛",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-077",
+      "age_group": "30–39",
+      "diagnosis": "未明示側性踝部韌帶扭傷",
+      "chief_complaint": "右腳外踝反覆疼痛近兩年",
+      "present_illness": "問診記錄：流鼻水、鼻癢、鼻塞、淺眠、多夢、壓力大、緊張、壓痛、晨起鼻水鼻癢鼻塞、喜辛辣、納可、淺眠多夢、易緊張、大便質平1日一行、右腳外踝疼痛兩年。",
+      "tongue": "舌質淡紅、苔少",
+      "pulse": "未記載",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "流鼻水",
+          "status": "present"
+        },
+        {
+          "name": "鼻癢",
+          "status": "present"
+        },
+        {
+          "name": "鼻塞",
+          "status": "present"
+        },
+        {
+          "name": "淺眠",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "緊張",
+          "status": "present"
+        },
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "晨起鼻水鼻癢鼻塞",
+          "status": "present"
+        },
+        {
+          "name": "喜辛辣",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "淺眠多夢",
+          "status": "present"
+        },
+        {
+          "name": "易緊張",
+          "status": "present"
+        },
+        {
+          "name": "大便質平1日一行",
+          "status": "present"
+        },
+        {
+          "name": "右腳外踝疼痛兩年",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-078",
+      "age_group": "40–49",
+      "diagnosis": "急性上呼吸道感染",
+      "chief_complaint": "咳嗽兩週",
+      "present_illness": "問診記錄：咳嗽、發熱、咳痰、打噴嚏、口乾、發燒、咳嗽有痰、痰咳不出、有白色清涕、口乾微苦、便一日一行、成條。明確否認失眠。",
+      "tongue": "舌淡紅、苔薄白、津少",
+      "pulse": "浮滑數、有力、左反關、脈浮滑數、脈有力",
+      "patterns": [
+        "風熱"
+      ],
+      "formulas": [
+        "定喘湯",
+        "辛夷清肺湯"
+      ],
+      "observations": [
+        {
+          "name": "咳嗽",
+          "status": "present"
+        },
+        {
+          "name": "發熱",
+          "status": "present"
+        },
+        {
+          "name": "咳痰",
+          "status": "present"
+        },
+        {
+          "name": "打噴嚏",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "發燒",
+          "status": "present"
+        },
+        {
+          "name": "咳嗽有痰",
+          "status": "present"
+        },
+        {
+          "name": "痰咳不出",
+          "status": "present"
+        },
+        {
+          "name": "有白色清涕",
+          "status": "present"
+        },
+        {
+          "name": "口乾微苦",
+          "status": "present"
+        },
+        {
+          "name": "便一日一行",
+          "status": "present"
+        },
+        {
+          "name": "成條",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-079",
+      "age_group": "0–17",
+      "diagnosis": "診斷未記載",
+      "chief_complaint": "近兩週陰道咖啡色分泌物點滴不盡",
+      "present_illness": "問診記錄：大便一日2-3行、小便正常、兩週陰道咖啡色分泌物點滴不盡。",
+      "tongue": "舌淡紅、舌體胖大、苔薄白",
+      "pulse": "脈弦",
+      "patterns": [
+        "氣虛",
+        "腎火"
+      ],
+      "formulas": [
+        "芎歸膠艾湯",
+        "四逆散"
+      ],
+      "observations": [
+        {
+          "name": "大便一日2-3行",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "兩週陰道咖啡色分泌物點滴不盡",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-080",
+      "age_group": "未記載",
+      "diagnosis": "痛經症",
+      "chief_complaint": "痛經症",
+      "present_illness": "問診記錄：痛經、腰痠、怕冷、乳脹、經前經行腰痠. 經前乳脹. 熱敷、小腹悶、納可、眠可、晚睡、入睡可、D1D2血塊、悶痛、劇痛(VAS:6)、D1D2經痛. 悶痛為主. 血塊、手足冷、二便平。",
+      "tongue": "舌尖紅、苔薄白",
+      "pulse": "脈寸弦、關尺細",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "龍膽瀉肝湯",
+        "溫經湯",
+        "少腹逐瘀湯"
+      ],
+      "observations": [
+        {
+          "name": "痛經",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "怕冷",
+          "status": "present"
+        },
+        {
+          "name": "乳脹",
+          "status": "present"
+        },
+        {
+          "name": "經前經行腰痠. 經前乳脹. 熱敷",
+          "status": "present"
+        },
+        {
+          "name": "小腹悶",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "晚睡",
+          "status": "present"
+        },
+        {
+          "name": "入睡可",
+          "status": "present"
+        },
+        {
+          "name": "D1D2血塊",
+          "status": "present"
+        },
+        {
+          "name": "悶痛",
+          "status": "present"
+        },
+        {
+          "name": "劇痛(VAS:6)",
+          "status": "present"
+        },
+        {
+          "name": "D1D2經痛. 悶痛為主. 血塊",
+          "status": "present"
+        },
+        {
+          "name": "手足冷",
+          "status": "present"
+        },
+        {
+          "name": "二便平",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-081",
+      "age_group": "60+",
+      "diagnosis": "肌炎",
+      "chief_complaint": "右邊背、右手臂、脊椎兩旁痠痛約三個月",
+      "present_illness": "問診記錄：胸痛、心悸、失眠、背痛、夜尿、右邊淋巴腫、輕微GERD、胃潰瘍、納可、/20剛開始睡不好、體重減輕4公斤(57kg)、吃完胃藥、痠痛改善一半、體重恢復、現眠可、/12莫德納第一劑、睡到一半偶會因為背痛痛醒、以前有BPH、現在、大便一日1-2次、成形、小便順、夜尿約1次、右邊背、右手臂、脊椎兩旁痠痛三個月。",
+      "tongue": "舌淡紅、苔薄白、齒痕",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "風寒濕痹"
+      ],
+      "formulas": [
+        "疏經活血湯",
+        "柴葛解肌湯",
+        "蠲痹湯",
+        "身痛逐瘀湯"
+      ],
+      "observations": [
+        {
+          "name": "胸痛",
+          "status": "present"
+        },
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "背痛",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "右邊淋巴腫",
+          "status": "present"
+        },
+        {
+          "name": "輕微GERD",
+          "status": "present"
+        },
+        {
+          "name": "胃潰瘍",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "/20剛開始睡不好",
+          "status": "present"
+        },
+        {
+          "name": "體重減輕4公斤(57kg)",
+          "status": "present"
+        },
+        {
+          "name": "吃完胃藥",
+          "status": "present"
+        },
+        {
+          "name": "痠痛改善一半",
+          "status": "present"
+        },
+        {
+          "name": "體重恢復",
+          "status": "present"
+        },
+        {
+          "name": "現眠可",
+          "status": "present"
+        },
+        {
+          "name": "/12莫德納第一劑",
+          "status": "present"
+        },
+        {
+          "name": "睡到一半偶會因為背痛痛醒",
+          "status": "present"
+        },
+        {
+          "name": "以前有BPH",
+          "status": "present"
+        },
+        {
+          "name": "現在",
+          "status": "present"
+        },
+        {
+          "name": "大便一日1-2次",
+          "status": "present"
+        },
+        {
+          "name": "成形",
+          "status": "present"
+        },
+        {
+          "name": "小便順",
+          "status": "present"
+        },
+        {
+          "name": "夜尿約1次",
+          "status": "present"
+        },
+        {
+          "name": "右邊背、右手臂、脊椎兩旁痠痛三個月",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-082",
+      "age_group": "60+",
+      "diagnosis": "本態性(原發性)高血壓",
+      "chief_complaint": "自停經起開始自覺燥熱數年",
+      "present_illness": "問診記錄：停經、怕熱、多汗、怕熱喜冷、易汗、汗多、飲水多(一天2000ml)、眠可、大便1天1行、質正常、小便正常。明確否認心悸、失眠。",
+      "tongue": "舌稍紅中質裂邊、苔剝稍不鮮、苔薄白有津",
+      "pulse": "左右脈浮滑關細、雙脈浮滑關細",
+      "patterns": [
+        "肝腎陰虛",
+        "肝氣鬱結"
+      ],
+      "formulas": [
+        "竹葉石膏湯",
+        "桑菊飲"
+      ],
+      "observations": [
+        {
+          "name": "停經",
+          "status": "present"
+        },
+        {
+          "name": "怕熱",
+          "status": "present"
+        },
+        {
+          "name": "多汗",
+          "status": "present"
+        },
+        {
+          "name": "怕熱喜冷",
+          "status": "present"
+        },
+        {
+          "name": "易汗",
+          "status": "present"
+        },
+        {
+          "name": "汗多",
+          "status": "present"
+        },
+        {
+          "name": "飲水多(一天2000ml)",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "大便1天1行",
+          "status": "present"
+        },
+        {
+          "name": "質正常",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        },
+        {
+          "name": "心悸",
+          "status": "absent"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-083",
+      "age_group": "未記載",
+      "diagnosis": "月經不規則",
+      "chief_complaint": "月經不來1年",
+      "present_illness": "問診記錄：月經不來1年。",
+      "tongue": "舌淡紅、朱點、苔薄白、舌大",
+      "pulse": "右寸浮數關弦數尺沉、左寸沉緩關沉弱尺弦、滑、脈滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "加味逍遙散",
+        "女科柏子仁丸"
+      ],
+      "observations": [
+        {
+          "name": "月經不來1年",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-084",
+      "age_group": "未記載",
+      "diagnosis": "扳機指",
+      "chief_complaint": "主訴:左手大拇指屈伸不利、疼痛已一週",
+      "present_illness": "問診記錄：壓力大、背痛、腰痠、關節腫脹、壓痛、平常、工作壓力、腰酸、疼痛、NSAID、高血壓(+)、大便正常、小便正常。",
+      "tongue": "舌紅色黯有兩側舌面瘀、舌、苔少",
+      "pulse": "右關滑寸尺較無力",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "行血凝痛膏"
+      ],
+      "observations": [
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "背痛",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "關節腫脹",
+          "status": "present"
+        },
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "平常",
+          "status": "present"
+        },
+        {
+          "name": "工作壓力",
+          "status": "present"
+        },
+        {
+          "name": "腰酸",
+          "status": "present"
+        },
+        {
+          "name": "疼痛",
+          "status": "present"
+        },
+        {
+          "name": "NSAID",
+          "status": "present"
+        },
+        {
+          "name": "高血壓(+)",
+          "status": "present"
+        },
+        {
+          "name": "大便正常",
+          "status": "present"
+        },
+        {
+          "name": "小便正常",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-085",
+      "age_group": "未記載",
+      "diagnosis": "腹部,下背部及骨盆肌肉、筋膜及韌帶拉傷",
+      "chief_complaint": "昨天晨起後發現明顯右脅肋痛",
+      "present_illness": "問診記錄：昨天晨起後發現明顯右脅肋痛、昨晚因此症狀至彰基急診就診、建議至中國醫就診檢查、部位:右脅肋下緣處約第11肋附近、誘發因子:轉腰、脹痛、VAS疼痛評估:3分、發作型態:深呼吸時、職業:辦公室行政人員。",
+      "tongue": "舌紅、齒痕、苔白厚膩、根黃",
+      "pulse": "弦澀、偏弱、脈弦澀",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "金黃散"
+      ],
+      "observations": [
+        {
+          "name": "昨天晨起後發現明顯右脅肋痛",
+          "status": "present"
+        },
+        {
+          "name": "昨晚因此症狀至彰基急診就診",
+          "status": "present"
+        },
+        {
+          "name": "建議至中國醫就診檢查",
+          "status": "present"
+        },
+        {
+          "name": "部位:右脅肋下緣處約第11肋附近",
+          "status": "present"
+        },
+        {
+          "name": "誘發因子:轉腰",
+          "status": "present"
+        },
+        {
+          "name": "脹痛",
+          "status": "present"
+        },
+        {
+          "name": "VAS疼痛評估:3分",
+          "status": "present"
+        },
+        {
+          "name": "發作型態:深呼吸時",
+          "status": "present"
+        },
+        {
+          "name": "職業:辦公室行政人員",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-086",
+      "age_group": "未記載",
+      "diagnosis": "頭暈及目眩",
+      "chief_complaint": "頭暈7個月",
+      "present_illness": "問診記錄：頭暈。",
+      "tongue": "質暗紅、苔薄白有瘀點朱點、邊齒痕、舌質暗紅",
+      "pulse": "左關弦數、右寸略滑",
+      "patterns": [
+        "腎陽虛"
+      ],
+      "formulas": [
+        "苓桂朮甘湯"
+      ],
+      "observations": [
+        {
+          "name": "頭暈",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-087",
+      "age_group": "未記載",
+      "diagnosis": "肺部纖維化",
+      "chief_complaint": "喘已兩年。",
+      "present_illness": "問診記錄：喘、怕熱、口乾、口苦、眼乾、胸悶、咳嗽、心悸、食慾不佳、失眠、入睡困難、易醒、腹瀉、全身無力、眼睛乾澀、痰乳白有泡沫質黏稠、喘甚、食後欲吐、平素納差、眠差、多惡夢、四肢末端嚴重無力、躺下無法自行起身、日1行、質正常、偶腹瀉、喘兩年。",
+      "tongue": "舌暗紅、剝、苔少、苔、少津、苔剝苔",
+      "pulse": "脈弦細數",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "知柏地黃丸",
+        "龍膽瀉肝湯",
+        "血府逐瘀湯"
+      ],
+      "observations": [
+        {
+          "name": "喘",
+          "status": "present"
+        },
+        {
+          "name": "怕熱",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "口苦",
+          "status": "present"
+        },
+        {
+          "name": "眼乾",
+          "status": "present"
+        },
+        {
+          "name": "胸悶",
+          "status": "present"
+        },
+        {
+          "name": "咳嗽",
+          "status": "present"
+        },
+        {
+          "name": "心悸",
+          "status": "present"
+        },
+        {
+          "name": "食慾不佳",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "易醒",
+          "status": "present"
+        },
+        {
+          "name": "腹瀉",
+          "status": "present"
+        },
+        {
+          "name": "全身無力",
+          "status": "present"
+        },
+        {
+          "name": "眼睛乾澀",
+          "status": "present"
+        },
+        {
+          "name": "痰乳白有泡沫質黏稠",
+          "status": "present"
+        },
+        {
+          "name": "喘甚",
+          "status": "present"
+        },
+        {
+          "name": "食後欲吐",
+          "status": "present"
+        },
+        {
+          "name": "平素納差",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "多惡夢",
+          "status": "present"
+        },
+        {
+          "name": "四肢末端嚴重無力",
+          "status": "present"
+        },
+        {
+          "name": "躺下無法自行起身",
+          "status": "present"
+        },
+        {
+          "name": "日1行",
+          "status": "present"
+        },
+        {
+          "name": "質正常",
+          "status": "present"
+        },
+        {
+          "name": "偶腹瀉",
+          "status": "present"
+        },
+        {
+          "name": "喘兩年",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-088",
+      "age_group": "未記載",
+      "diagnosis": "原發性無月經",
+      "chief_complaint": "月經量遲來",
+      "present_illness": "問診記錄：多夢、手麻木、入睡可、手麻、月經量遲來。",
+      "tongue": "舌淡紅、質裂、苔薄白、舌質裂",
+      "pulse": "寸關弦細數、尺弱",
+      "patterns": [
+        "陰虛陽亢",
+        "血虛"
+      ],
+      "formulas": [
+        "血府逐瘀湯",
+        "女科柏子仁丸",
+        "知柏地黃丸"
+      ],
+      "observations": [
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "手麻木",
+          "status": "present"
+        },
+        {
+          "name": "入睡可",
+          "status": "present"
+        },
+        {
+          "name": "手麻",
+          "status": "present"
+        },
+        {
+          "name": "月經量遲來",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-089",
+      "age_group": "未記載",
+      "diagnosis": "結腸惡性腫瘤",
+      "chief_complaint": "改善化療副作用",
+      "present_illness": "問診記錄：改善化療副作用。",
+      "tongue": "舌淡紅、苔薄白邊稍齒痕",
+      "pulse": "雙脈弦",
+      "patterns": [
+        "氣滯血瘀",
+        "氣虛"
+      ],
+      "formulas": [
+        "小柴胡湯",
+        "甘露消毒丹"
+      ],
+      "observations": [
+        {
+          "name": "改善化療副作用",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-090",
+      "age_group": "未記載",
+      "diagnosis": "腕部、手部及手指表淺性損傷",
+      "chief_complaint": "右腳掌第五遮骨腫痛感約3日,伴隨壓痛,紅腫。\n\n右手腕無名指扭傷。",
+      "present_illness": "問診記錄：壓痛、腰痛、眠佳、納佳、/07在新店慈濟醫院:右手無名指蜂窩型組織炎、壓痛感、年前、車禍、Normal、右腳掌第五遮骨有壓痛感、且伴隨紅腫、現整個右腳紅腫痛、患者在110/03/03車禍時右腳掌受傷、次日右腳掌紅腫痛、/03/03到本院急診就醫、診斷:右腳掌挫傷、開止痛藥及肌肉鬆弛劑、患者自述蓋棉被壓到也會痛、右後腳跟痛感強、且延伸到膝蓋、大便二日型、成型、小便平、右手腕無名指扭傷。",
+      "tongue": "舌淡紅、有齒痕、苔白、津平、齒痕",
+      "pulse": "脈滑略浮、尺脈較無力、尺較無力",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "疏經活血湯",
+        "芍藥甘草湯",
+        "真武湯"
+      ],
+      "observations": [
+        {
+          "name": "壓痛",
+          "status": "present"
+        },
+        {
+          "name": "腰痛",
+          "status": "present"
+        },
+        {
+          "name": "眠佳",
+          "status": "present"
+        },
+        {
+          "name": "納佳",
+          "status": "present"
+        },
+        {
+          "name": "/07在新店慈濟醫院:右手無名指蜂窩型組織炎",
+          "status": "present"
+        },
+        {
+          "name": "壓痛感",
+          "status": "present"
+        },
+        {
+          "name": "年前",
+          "status": "present"
+        },
+        {
+          "name": "車禍",
+          "status": "present"
+        },
+        {
+          "name": "Normal",
+          "status": "present"
+        },
+        {
+          "name": "右腳掌第五遮骨有壓痛感",
+          "status": "present"
+        },
+        {
+          "name": "且伴隨紅腫",
+          "status": "present"
+        },
+        {
+          "name": "現整個右腳紅腫痛",
+          "status": "present"
+        },
+        {
+          "name": "患者在110/03/03車禍時右腳掌受傷",
+          "status": "present"
+        },
+        {
+          "name": "次日右腳掌紅腫痛",
+          "status": "present"
+        },
+        {
+          "name": "/03/03到本院急診就醫",
+          "status": "present"
+        },
+        {
+          "name": "診斷:右腳掌挫傷",
+          "status": "present"
+        },
+        {
+          "name": "開止痛藥及肌肉鬆弛劑",
+          "status": "present"
+        },
+        {
+          "name": "患者自述蓋棉被壓到也會痛",
+          "status": "present"
+        },
+        {
+          "name": "右後腳跟痛感強",
+          "status": "present"
+        },
+        {
+          "name": "且延伸到膝蓋",
+          "status": "present"
+        },
+        {
+          "name": "大便二日型",
+          "status": "present"
+        },
+        {
+          "name": "成型",
+          "status": "present"
+        },
+        {
+          "name": "小便平",
+          "status": "present"
+        },
+        {
+          "name": "右手腕無名指扭傷",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-091",
+      "age_group": "未記載",
+      "diagnosis": "子宮內膜異位症、子宮平滑肌瘤",
+      "chief_complaint": "近一週仍少量暗褐色出血,就診前一天有小血塊",
+      "present_illness": "問診記錄：嗜睡、多夢、大便稀軟、腳掌汗皰疹、睡眠-經前嗜睡、平素眠尚可、下半夜多夢、四肢-偶爾肩頸緊、消化-平時脹氣、矢氣多、二便-大便一日一行、不成形、小便可、一週仍少量暗褐色出血,就診前一天有小血塊。",
+      "tongue": "舌淡紅、舌體瘀斑、苔薄白",
+      "pulse": "脈沉細弦",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "桂枝茯苓丸"
+      ],
+      "observations": [
+        {
+          "name": "嗜睡",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "大便稀軟",
+          "status": "present"
+        },
+        {
+          "name": "腳掌汗皰疹",
+          "status": "present"
+        },
+        {
+          "name": "睡眠-經前嗜睡",
+          "status": "present"
+        },
+        {
+          "name": "平素眠尚可",
+          "status": "present"
+        },
+        {
+          "name": "下半夜多夢",
+          "status": "present"
+        },
+        {
+          "name": "四肢-偶爾肩頸緊",
+          "status": "present"
+        },
+        {
+          "name": "消化-平時脹氣",
+          "status": "present"
+        },
+        {
+          "name": "矢氣多",
+          "status": "present"
+        },
+        {
+          "name": "二便-大便一日一行",
+          "status": "present"
+        },
+        {
+          "name": "不成形",
+          "status": "present"
+        },
+        {
+          "name": "小便可",
+          "status": "present"
+        },
+        {
+          "name": "一週仍少量暗褐色出血,就診前一天有小血塊",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-092",
+      "age_group": "未記載",
+      "diagnosis": "左側手肘挫傷之後遺症",
+      "chief_complaint": "左手腕手肘疼痛兩天",
+      "present_illness": "問診記錄：肘疼痛。",
+      "tongue": "淡紅、黯、舌淡紅",
+      "pulse": "脈弦滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "肘疼痛",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-093",
+      "age_group": "未記載",
+      "diagnosis": "尋常性痤瘡、痤瘡",
+      "chief_complaint": "痘瘡已三個月",
+      "present_illness": "問診記錄：鼻塞、流鼻水、胃痛、腹部脹痛、壓力大、晨起易鼻塞流鼻涕、額頭鼻翼處痤瘡、嘴唇易乾、經來腹部脹痛、偶發胃痛(臍上 刺痛)、食慾可、納可、眠可、讀書壓力大、左關弦、右關弦滑、尺上滑、中有裂、大便可、一日一行質偏軟成條、味可、小便可、餘尿感、痘瘡三個月。明確否認失眠。",
+      "tongue": "舌紅有津、中有裂、苔",
+      "pulse": "左關弦、右關弦滑、尺上滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "真人活命飲"
+      ],
+      "observations": [
+        {
+          "name": "鼻塞",
+          "status": "present"
+        },
+        {
+          "name": "流鼻水",
+          "status": "present"
+        },
+        {
+          "name": "胃痛",
+          "status": "present"
+        },
+        {
+          "name": "腹部脹痛",
+          "status": "present"
+        },
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "晨起易鼻塞流鼻涕",
+          "status": "present"
+        },
+        {
+          "name": "額頭鼻翼處痤瘡",
+          "status": "present"
+        },
+        {
+          "name": "嘴唇易乾",
+          "status": "present"
+        },
+        {
+          "name": "經來腹部脹痛",
+          "status": "present"
+        },
+        {
+          "name": "偶發胃痛(臍上 刺痛)",
+          "status": "present"
+        },
+        {
+          "name": "食慾可",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "讀書壓力大",
+          "status": "present"
+        },
+        {
+          "name": "左關弦",
+          "status": "present"
+        },
+        {
+          "name": "右關弦滑",
+          "status": "present"
+        },
+        {
+          "name": "尺上滑",
+          "status": "present"
+        },
+        {
+          "name": "中有裂",
+          "status": "present"
+        },
+        {
+          "name": "大便可",
+          "status": "present"
+        },
+        {
+          "name": "一日一行質偏軟成條",
+          "status": "present"
+        },
+        {
+          "name": "味可",
+          "status": "present"
+        },
+        {
+          "name": "小便可",
+          "status": "present"
+        },
+        {
+          "name": "餘尿感",
+          "status": "present"
+        },
+        {
+          "name": "痘瘡三個月",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-094",
+      "age_group": "未記載",
+      "diagnosis": "乾癬",
+      "chief_complaint": "雙腿紅色斑塊,癢、紅、脫屑,已十餘年。",
+      "present_illness": "問診記錄：脫屑、口乾、下肢癢感、色暗紅、屑不甚厚、日1行、成形。",
+      "tongue": "舌質稍紅、苔薄白膩",
+      "pulse": "脈弦滑無力",
+      "patterns": [
+        "血熱"
+      ],
+      "formulas": [
+        "消風散",
+        "甘露消毒丹",
+        "青黛膏"
+      ],
+      "observations": [
+        {
+          "name": "脫屑",
+          "status": "present"
+        },
+        {
+          "name": "口乾",
+          "status": "present"
+        },
+        {
+          "name": "下肢癢感",
+          "status": "present"
+        },
+        {
+          "name": "色暗紅",
+          "status": "present"
+        },
+        {
+          "name": "屑不甚厚",
+          "status": "present"
+        },
+        {
+          "name": "日1行",
+          "status": "present"
+        },
+        {
+          "name": "成形",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-095",
+      "age_group": "未記載",
+      "diagnosis": "坐骨神經痛",
+      "chief_complaint": "雙下肢無力麻已3個月",
+      "present_illness": "問診記錄：雙下肢無力、失眠、夜尿、腰痠、腰痛、全身無力、納可、眠差、雙下肢睡時冷、平時腰痠、腰痛偶作、X光顯示L5滑脫、脊椎側彎、個月前雙腳下樓梯開始無力麻、坐久麻甚、雙大腿外側緊繃、雙膝走路痠、大便日1-2次、成形、便稍硬、小便平、夜尿1-2次。",
+      "tongue": "舌淡紅稍暗、邊齒痕、苔薄白",
+      "pulse": "脈滑",
+      "patterns": [
+        "氣滯血瘀"
+      ],
+      "formulas": [
+        "疏經活血湯",
+        "芍藥甘草湯",
+        "獨活寄生湯"
+      ],
+      "observations": [
+        {
+          "name": "雙下肢無力",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "腰痛",
+          "status": "present"
+        },
+        {
+          "name": "全身無力",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "眠差",
+          "status": "present"
+        },
+        {
+          "name": "雙下肢睡時冷",
+          "status": "present"
+        },
+        {
+          "name": "平時腰痠",
+          "status": "present"
+        },
+        {
+          "name": "腰痛偶作",
+          "status": "present"
+        },
+        {
+          "name": "X光顯示L5滑脫",
+          "status": "present"
+        },
+        {
+          "name": "脊椎側彎",
+          "status": "present"
+        },
+        {
+          "name": "個月前雙腳下樓梯開始無力麻",
+          "status": "present"
+        },
+        {
+          "name": "坐久麻甚",
+          "status": "present"
+        },
+        {
+          "name": "雙大腿外側緊繃",
+          "status": "present"
+        },
+        {
+          "name": "雙膝走路痠",
+          "status": "present"
+        },
+        {
+          "name": "大便日1-2次",
+          "status": "present"
+        },
+        {
+          "name": "成形",
+          "status": "present"
+        },
+        {
+          "name": "便稍硬",
+          "status": "present"
+        },
+        {
+          "name": "小便平",
+          "status": "present"
+        },
+        {
+          "name": "夜尿1-2次",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-096",
+      "age_group": "未記載",
+      "diagnosis": "偏頭痛",
+      "chief_complaint": "最近每天雙顳側頭部脹痛。",
+      "present_illness": "問診記錄：頭部脹痛、多夢、煩躁、壓力大、大便稀軟、夜尿、腰背痠痛、四肢痠痛、納可、容易排氣、一星期吃兩三次炸物、喝酒兩次、檳榔一次、多夢(11PM~7 AM)、工作壓力、兩三次一日、質軟散、容易拉肚子、夜尿一次(睡前喝水)。",
+      "tongue": "舌紅、苔白膩",
+      "pulse": "脈滑",
+      "patterns": [
+        "痰濁上擾"
+      ],
+      "formulas": [
+        "鉤藤散"
+      ],
+      "observations": [
+        {
+          "name": "頭部脹痛",
+          "status": "present"
+        },
+        {
+          "name": "多夢",
+          "status": "present"
+        },
+        {
+          "name": "煩躁",
+          "status": "present"
+        },
+        {
+          "name": "壓力大",
+          "status": "present"
+        },
+        {
+          "name": "大便稀軟",
+          "status": "present"
+        },
+        {
+          "name": "夜尿",
+          "status": "present"
+        },
+        {
+          "name": "腰背痠痛",
+          "status": "present"
+        },
+        {
+          "name": "四肢痠痛",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "容易排氣",
+          "status": "present"
+        },
+        {
+          "name": "一星期吃兩三次炸物",
+          "status": "present"
+        },
+        {
+          "name": "喝酒兩次",
+          "status": "present"
+        },
+        {
+          "name": "檳榔一次",
+          "status": "present"
+        },
+        {
+          "name": "多夢(11PM~7 AM)",
+          "status": "present"
+        },
+        {
+          "name": "工作壓力",
+          "status": "present"
+        },
+        {
+          "name": "兩三次一日",
+          "status": "present"
+        },
+        {
+          "name": "質軟散",
+          "status": "present"
+        },
+        {
+          "name": "容易拉肚子",
+          "status": "present"
+        },
+        {
+          "name": "夜尿一次(睡前喝水)",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-097",
+      "age_group": "未記載",
+      "diagnosis": "頭痛",
+      "chief_complaint": "近三天前額與兩邊顳側頭痛",
+      "present_illness": "問診記錄：頭痛、腹脹、疲倦、大便稀軟、食後偶腹脹、眠可、醒後偶疲倦、偶心煩、排便一日一行、軟散、色正常、小便平。明確否認失眠。",
+      "tongue": "舌尖紅、苔薄膩稍黃",
+      "pulse": "脈關弦滑",
+      "patterns": [
+        "痰濁上擾"
+      ],
+      "formulas": [],
+      "observations": [
+        {
+          "name": "頭痛",
+          "status": "present"
+        },
+        {
+          "name": "腹脹",
+          "status": "present"
+        },
+        {
+          "name": "疲倦",
+          "status": "present"
+        },
+        {
+          "name": "大便稀軟",
+          "status": "present"
+        },
+        {
+          "name": "食後偶腹脹",
+          "status": "present"
+        },
+        {
+          "name": "眠可",
+          "status": "present"
+        },
+        {
+          "name": "醒後偶疲倦",
+          "status": "present"
+        },
+        {
+          "name": "偶心煩",
+          "status": "present"
+        },
+        {
+          "name": "排便一日一行",
+          "status": "present"
+        },
+        {
+          "name": "軟散",
+          "status": "present"
+        },
+        {
+          "name": "色正常",
+          "status": "present"
+        },
+        {
+          "name": "小便平",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-098",
+      "age_group": "未記載",
+      "diagnosis": "多囊性卵巢症候群",
+      "chief_complaint": "月經不規則",
+      "present_illness": "問診記錄：月經不規則、腰痠、乳脹、眠5小時、小夜班、PCOS 病史、半年前開始月經不規則、LMP:02/06-02/11 量少、咖啡色、經前腰痠、催經經行、色鮮紅、自發經行、色暗、白色分泌物、便1-2天一行。",
+      "tongue": "舌、齒痕、舌胖、苔白膩",
+      "pulse": "脈稍軟",
+      "patterns": [
+        "脾腎陽虛"
+      ],
+      "formulas": [
+        "女科柏子仁丸",
+        "調胃承氣湯",
+        "天王補心丹",
+        "完帶湯"
+      ],
+      "observations": [
+        {
+          "name": "月經不規則",
+          "status": "present"
+        },
+        {
+          "name": "腰痠",
+          "status": "present"
+        },
+        {
+          "name": "乳脹",
+          "status": "present"
+        },
+        {
+          "name": "眠5小時",
+          "status": "present"
+        },
+        {
+          "name": "小夜班",
+          "status": "present"
+        },
+        {
+          "name": "PCOS 病史",
+          "status": "present"
+        },
+        {
+          "name": "半年前開始月經不規則",
+          "status": "present"
+        },
+        {
+          "name": "LMP:02/06-02/11 量少",
+          "status": "present"
+        },
+        {
+          "name": "咖啡色",
+          "status": "present"
+        },
+        {
+          "name": "經前腰痠",
+          "status": "present"
+        },
+        {
+          "name": "催經經行",
+          "status": "present"
+        },
+        {
+          "name": "色鮮紅",
+          "status": "present"
+        },
+        {
+          "name": "自發經行",
+          "status": "present"
+        },
+        {
+          "name": "色暗",
+          "status": "present"
+        },
+        {
+          "name": "白色分泌物",
+          "status": "present"
+        },
+        {
+          "name": "便1-2天一行",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-099",
+      "age_group": "未記載",
+      "diagnosis": "原發性肝惡性腫瘤，未明示型、未明示側性肺續發性惡性腫瘤",
+      "chief_complaint": "正子掃描發現肺部腫瘤並做切片確認為肝移轉腫瘤2cm",
+      "present_illness": "問診記錄：入睡困難、二便調、納可、不易入睡、情志平常、正子掃描發現肺部腫瘤並做切片確認為肝移轉腫瘤2cm。",
+      "tongue": "舌淡偏白、苔厚色咖啡(染 苔)、咖啡、喉糖",
+      "pulse": "右沉弦滑、左沉弦細滑、右脈沉弦滑、左脈沉弦細滑",
+      "patterns": [
+        "肝腎陰虛"
+      ],
+      "formulas": [
+        "六味地黃丸",
+        "生脈飲",
+        "大柴胡湯"
+      ],
+      "observations": [
+        {
+          "name": "入睡困難",
+          "status": "present"
+        },
+        {
+          "name": "二便調",
+          "status": "present"
+        },
+        {
+          "name": "納可",
+          "status": "present"
+        },
+        {
+          "name": "不易入睡",
+          "status": "present"
+        },
+        {
+          "name": "情志平常",
+          "status": "present"
+        },
+        {
+          "name": "正子掃描發現肺部腫瘤並做切片確認為肝移轉腫瘤2cm",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-100",
+      "age_group": "0–17",
+      "diagnosis": "妥瑞氏症",
+      "chief_complaint": "4年前開始有清喉嚨、做鬼臉、手足舞蹈等情形",
+      "present_illness": "問診記錄：清喉嚨、做鬼臉、手足舞蹈、大便正常、尿量深黃量少。明確否認失眠。",
+      "tongue": "舌偏紅、苔薄白、津多",
+      "pulse": "右寸關外浮細數、左寸關浮細數",
+      "patterns": [
+        "肝陽上亢"
+      ],
+      "formulas": [
+        "桂枝湯"
+      ],
+      "observations": [
+        {
+          "name": "清喉嚨",
+          "status": "present"
+        },
+        {
+          "name": "做鬼臉",
+          "status": "present"
+        },
+        {
+          "name": "手足舞蹈",
+          "status": "present"
+        },
+        {
+          "name": "大便正常",
+          "status": "present"
+        },
+        {
+          "name": "尿量深黃量少",
+          "status": "present"
+        },
+        {
+          "name": "失眠",
+          "status": "absent"
+        }
+      ]
+    }
+  ]
+}

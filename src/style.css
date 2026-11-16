@@ -373,6 +373,13 @@ th { font-size: 12px; }
 .field-table td code { font-size: 13px; }
 .key-tag { font-size: 12px; }
 .diff-filter { margin-top: 6px; }
+.more-observations { margin: 12px 0 18px; font-size: 12px; color: var(--muted); }
+.more-observations summary { cursor: pointer; color: var(--accent); }
+.more-observations p { margin-top: 10px; line-height: 1.9; overflow-wrap: anywhere; }
+.prescription-list { padding: 10px 0; line-height: 1.8; }
+.formula-select { margin-top: 16px; flex-wrap: wrap; }
+.formula-select select { min-width: 0; max-width: 100%; }
+.clinical-record h3 { overflow-wrap: anywhere; }
 .comparison-method { margin: 0 0 16px; color: var(--muted); font-size: 12px; }
 .erd-scroll-hint { margin: 0 20px 12px; color: var(--muted); font-size: 12px; }
 .dictionary-scroll-hint { display: none; margin-bottom: 12px; color: var(--muted); font-size: 12px; }
