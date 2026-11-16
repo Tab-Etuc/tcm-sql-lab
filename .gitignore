@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.taste-skill/inspect*/
+.taste-skill/*-inspect/
+.taste-skill/browser/
+test-results/
+playwright-report/
+*.log
+.local/
