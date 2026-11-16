@@ -11,8 +11,8 @@ const example=(sql,expected)=>{const r=run(sql);if(r.values.length!==expected)th
 const cases=featuredCases.map(id=>{
  const c=dataset.clinical_case.find(x=>x.case_id===id);
  const syndromes=dataset.case_syndrome.filter(x=>x.case_id===id).map(x=>`${dataset.syndrome.find(s=>s.syndrome_id===x.syndrome_id).syndrome_name}（${x.syndrome_role==='primary'?'主':'次'}證）`).join('、');
- const rx=dataset.case_formula.find(x=>x.case_id===id);
- return [id,c.age_group,c.chief_complaint,syndromes,rx?dataset.formula.find(f=>f.formula_id===rx.formula_id).formula_name:'尚無處方'];
+ const prescriptions=dataset.case_formula.filter(x=>x.case_id===id).map(rx=>dataset.formula.find(f=>f.formula_id===rx.formula_id).formula_name);
+ return [id,c.age_group,c.chief_complaint,syndromes,prescriptions.length?prescriptions.join('、'):'尚無處方'];
 });
 const doc=`# 中醫處方實驗室 — 資料庫設計與查詢說明
 
@@ -24,7 +24,7 @@ const doc=`# 中醫處方實驗室 — 資料庫設計與查詢說明
 
 中醫教學診所需要跨病例整理主訴、舌脈、症狀、證型與用方。醫師查找相同證型的病例，研究助理統計各證型與方劑的使用情形，學生透過修改 SQL 理解關聯查詢與結果差異。
 
-病例資料從中國醫門診教學病例 819 筆中，以固定種子 20261117 不重複隨機抽取 100 筆；方劑與藥材組成依衛福部文件整理。
+病例資料從中國醫門診教學病例 819 筆中，以固定種子 20261117 不重複隨機抽取 100 筆。保留全部來源處方名稱，共 110 種方劑；其中十方的藥材組成依衛福部文件整理。來源證型清單第一項為查詢主證，其餘為次證。
 
 ## 資料庫設計
 
@@ -43,9 +43,9 @@ formula       1 —— N formula_herb N —— 1 herb
 
 症狀分成三種紀錄狀態：present 表示陽性、absent 表示明確陰性、缺少關聯列表示未記載。狀態屬於病例與症狀的關聯。
 
-### 首頁示範病例
+### 抽樣病例示例
 
-${mdTable(['病例','年齡區間','主訴','證型','示例方'],cases)}
+${mdTable(['病例','年齡區間','主訴','證型','全部來源處方'],cases)}
 
 ${schema.map(t=>`### ${t.label} · ${t.name}\n\n${t.description}\n\n${mdTable(['欄位','型別','限制','說明'],t.fields)}\n\n樣本資料（前 ${Math.min(3,totals[t.name])} 筆）：\n\n${mdTable(Object.keys(dataset[t.name][0]),dataset[t.name].slice(0,3).map(Object.values))}`).join('\n\n')}
 
@@ -78,6 +78,24 @@ ${sources.map(s=>`- ${s.url?`[${s.title}](${s.url})`:s.title}：${s.detail}`).jo
 5. 用 Q10 的三個 0 → 1 儲存格，解釋 COUNT(欄位) 與 COUNT(*)。
 `;
 writeFileSync('public/tcm_sql_design_spec.md',doc);
+writeFileSync('docs/EXPLAIN.md',`# 中醫處方實驗室 · 100 筆抽樣版口頭說明
+
+## 資料怎麼來？
+
+從 819 筆中國醫門診教學病例，以固定種子 20261117 不重複隨機抽取 100 筆。網站每次載入相同樣本，SQL 結果可重現。證型字典有 ${totals.syndrome} 種，Q05 列出 ${run(questions[4].sql).values.length} 個查詢主證組別；主次角色依來源清單順序建立。年齡由病程開頭的明確記錄整理，未記載者另列一組。
+
+## 九張表如何連接？
+
+病例、證型、症狀、方劑、藥材是五張主表；四張中介表記錄多對多配對。一份病例可有多證型、多方劑。方劑共 ${totals.formula} 種，十方已有完整藥材組成，其餘保留來源方名。
+
+## 逐題結果與原因
+
+${questions.map(q=>`### ${q.id} ${q.title}\n\n${q.expected} → ${q.modified} 列。${q.why}`).join('\n\n')}
+
+## 三分鐘操作
+
+先切換 CASE-001 與 CASE-002，展示不同診斷和證型，以及零到多個處方。打開病例症狀表，說明 present／absent／缺少紀錄。執行 Q03，再展示 Q04 的 ${questions[3].expected}／${questions[3].modified} 列，最後用 Q10 解釋 COUNT(欄位) 與 COUNT(*)。
+`);
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 const layout={clinical_case:[40,290],case_syndrome:[390,50],syndrome:[740,50],case_symptom:[390,320],symptom:[740,320],case_formula:[390,590],formula:[740,590],formula_herb:[1090,590],herb:[1090,240]};

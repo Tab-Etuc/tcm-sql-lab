@@ -51,6 +51,8 @@ npm run preview
 
 `npm run docs` 從同一份欄位字典、資料與題庫產生下載用的設計文件和 ERD，並實際驗證 24 段 SQL 的結果筆數。`npm run build` 會先執行這一步，保持下載文件與畫面一致。
 
+`node tests/export-consistency.mjs` 逐格比較下載的 SQLite／建表 SQL、每題預期與實際結果、比較表、CSV，以及正式站的設計文件與 ERD。`TEST_URL` 可指定正式站網址。
+
 結果比較使用**多重集合差集**，保留重複列次數；欄位不同時，先提示對齊欄位再比較各列內容。內容相同但順序不同會明確說明。編輯草稿與已完成題數存於本機 localStorage。
 
 ## 部署
