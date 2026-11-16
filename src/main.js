@@ -27,8 +27,8 @@ function toast(message){const el=$('#toast');el.textContent=message;el.classList
 function getQuestion(){return customQuestion??questions.find(q=>q.id===state.qid)??questions[1];}
 function tableQuestion(name){
  const t=schema.find(s=>s.name===name);if(!t)return null;
- const sql=`SELECT *\nFROM ${name}\nORDER BY ${t.fields[0][0]};`;
- return {id:`table_${name}`,title:`探索${t.label}資料`,group:'資料表探索',level:'自由查詢',tags:['SELECT','ORDER BY'],tables:[name],prompt:`直接查閱 ${name} 的完整教學資料。你可以加入 WHERE、選擇欄位，或與其他資料表 JOIN。`,sql,variant:sql.replace(';','\nLIMIT 5;'),expected:totals[name],modified:Math.min(5,totals[name]),before:'全部資料',after:'前 5 筆資料',steps:['SELECT * 顯示所有欄位。','ORDER BY 依第一個鍵欄位排列。','嘗試用 LIMIT 控制結果列數。'],why:'LIMIT 5 只保留排序後的前五筆，資料庫裡的其他資料仍然存在。',takeaway:'自由查詢的結果可與完整資料表基準比較。'};
+ const sql=`SELECT *\nFROM ${name}\nORDER BY ${t.fields.filter(f=>f[2].includes('PK')).map(f=>f[0]).join(', ')};`;
+ return {id:`table_${name}`,title:`探索${t.label}資料`,group:'資料表探索',level:'自由查詢',tags:['SELECT','ORDER BY'],tables:[name],prompt:`直接查閱 ${name} 的完整教學資料。你可以加入 WHERE、選擇欄位，或與其他資料表 JOIN。`,sql,variant:sql.replace(';','\nLIMIT 5;'),expected:totals[name],modified:Math.min(5,totals[name]),before:'全部資料',after:'前 5 筆資料',steps:['SELECT * 顯示所有欄位。','ORDER BY 依完整主鍵排列，固定每一列的順序。','嘗試用 LIMIT 控制結果列數。'],why:'LIMIT 5 只保留排序後的前五筆，資料庫裡的其他資料仍然存在。',takeaway:'自由查詢的結果可與完整資料表基準比較。'};
 }
 const nav=[['case','case','案例背景','使用情境與資料'],['database','nodes','資料庫設計','關聯模型與字典'],['query','code','SQL 實驗室','12 題互動練習'],['compare','compare','結果比較','理解每一次改動']];
 $('#app').innerHTML=`<div class="app-shell"><aside class="sidebar" aria-label="主導覽"><a class="brand" href="#case">${mark}<span>中醫處方實驗室<small>TCM SQL Lab</small></span></a><div class="workspace-label">中醫臨床資料庫</div><nav>${nav.map(([route,ic,label,sub])=>`<a href="#${route}" data-route="${route}">${icon(ic)}<span>${label}<small>${sub}</small></span></a>`).join('')}</nav><div class="sidebar-bottom"><div class="learning-progress"><div><span>練習進度</span><span class="num" id="nav-progress"></span></div><progress id="learning-progress" max="12" value="0" aria-label="已驗證題目進度"></progress><p>執行並符合預期結果後記錄</p></div><button class="sidebar-utility" data-action="download-db">${icon('download')}下載 SQLite 資料庫</button><button class="sidebar-utility" data-action="sources">${icon('book')}資料來源與說明</button><div class="sidebar-credit">資料庫課程 · 2026 秋季</div></div></aside><header class="topbar"><button class="icon-button menu-toggle" aria-label="開啟導覽" aria-expanded="false" data-action="toggle-menu">${icon('menu')}</button><div class="breadcrumb"><span>教學工作區</span>${icon('chevron')}<span id="route-name">案例背景</span></div><div class="db-status" id="db-status" role="status"><span class="status-dot loading"></span>正在載入 SQLite</div></header><main id="main" class="main-sheet"></main><div class="nav-scrim" data-action="toggle-menu"></div></div>${sourceDialog()}<div class="toast" id="toast" role="status"></div>`;
@@ -36,6 +36,17 @@ $('#app').innerHTML=`<div class="app-shell"><aside class="sidebar" aria-label="�
 function updateProgress(){
  $('#nav-progress').textContent=`${state.completed.size} / ${questions.length}`;
  $('#learning-progress').value=state.completed.size;
+}
+function syncRunButton(){
+ const button=$('#run-button');if(!button)return;
+ button.disabled=!state.ready;
+ button.title=state.ready?'':'SQLite 正在載入';
+ button.dataset.action=state.running?'cancel-query':'run';
+ button.innerHTML=state.running?`${icon('stop')}停止查詢`:`${icon('play')}執行查詢`;
+}
+function syncResultStatus(q,stored,tab){
+ const edited=stored&&(editor?.state.doc.toString()??state.drafts[q.id]??q.sql)!==stored.sql;
+ $('#result-status').textContent=tab==='expected'?`預期 ${q.expected} 筆`:edited?'SQL 已修改 · 請重新執行':stored?.error?'執行失敗':stored?.result?`${stored.result.values.length} 筆 · ${stored.elapsed.toFixed(1)} ms${stored.results.length>1?` · 顯示第 ${stored.results.length} 組結果`:''}`:`預期 ${q.expected} 筆`;
 }
 function navigate(hash){if(location.hash===`#${hash}`)renderRoute();else location.hash=hash;}
 function parseRoute(){
@@ -64,10 +75,10 @@ function renderRoute(){
  document.title=`${nav.find(n=>n[0]===state.route)[2]} · 中醫處方實驗室`;
  $('#main').innerHTML=state.route==='case'?overview(state.selectedCase):state.route==='database'?databaseView(state.selectedTable,state.dictionaryTab):state.route==='query'?queryView(q,state.completed):compareView(q,state.compareMode==='custom');
  if(state.route==='query'){
-  editor=createEditor($('#sql-editor'),state.drafts[q.id]??q.sql,runQuery,doc=>{state.drafts[q.id]=doc;persist();const result=state.results.get(q.id);if(result&&doc!==result.sql)$('#result-status').textContent='SQL 已修改 · 請重新執行';});
+  editor=createEditor($('#sql-editor'),state.drafts[q.id]??q.sql,runQuery,doc=>{state.drafts[q.id]=doc;persist();syncResultStatus(q,state.results.get(q.id),state.resultTab);});
   if(customQuestion){const sel=$('#question-select');sel.insertAdjacentHTML('afterbegin',`<option selected value="${q.id}">${q.title}</option>`);}
   renderQueryResults();
-  const run=$('#run-button');if(!state.ready){run.disabled=true;run.title='SQLite 正在載入';}
+  syncRunButton();
   baseline(q).then(()=>{if(state.route==='query'&&getQuestion().id===q.id)renderQueryResults();}).catch(err=>{if(state.route==='query')$('#results').innerHTML=errorBlock(err.message);});
  }
  if(state.route==='compare'){
@@ -80,6 +91,7 @@ function errorBlock(message){return `<div class="error-state" role="alert"><div>
 async function renderQueryResults(){
  if(state.route!=='query')return;
  const q=getQuestion(),renderId=state.renderId,stored=state.results.get(q.id),tab=state.resultTab;
+ syncResultStatus(q,stored,tab);
  document.querySelectorAll('[data-result-tab]').forEach(b=>b.setAttribute('aria-selected',b.dataset.resultTab===tab));
  let result;
  if(tab==='expected'){
@@ -117,7 +129,7 @@ async function runQuery(){
    $('.progress-label').innerHTML=`已驗證 <strong class="num">${state.completed.size} / ${questions.length}</strong> 題`;
   }
  }catch(err){state.results.set(q.id,{error:err.message,sql});if(state.renderId===renderId){state.resultTab='actual';$('#result-status').textContent='執行失敗';renderQueryResults();}}
- finally{state.running=false;if(state.renderId===renderId){$('#run-button').innerHTML=`${icon('play')}執行查詢`;$('#run-button').dataset.action='run';}}
+ finally{state.running=false;syncRunButton();if(state.route==='query'&&getQuestion().id===q.id)renderQueryResults();updateProgress();}
 }
 function sqlDiff(sql,other,kind){
  const otherLines=new Set(other.split('\n'));
@@ -126,13 +138,14 @@ function sqlDiff(sql,other,kind){
 function renderComparison(){
  const c=state.comparison;if(!c||state.route!=='compare')return;
  const q=getQuestion(),d=compareResults(c.before,c.after),schemaChanged=d.kind==='columns';
+ const showDifferences=state.diffOnly&&!schemaChanged&&(d.added.length>0||d.removed.length>0);
  const delta=c.after.values.length-c.before.values.length;
  const own=state.compareMode==='custom';
  const summary=schemaChanged?'欄位結構改變':d.orderChanged?'內容相同，排序不同':!d.added.length&&!d.removed.length?'資料內容相同':`新增 ${d.added.length} 列 · 移除 ${d.removed.length} 列`;
- $('#comparison').innerHTML=`<div class="comparison-summary"><div class="count-transition"><div><span>原版結果</span><strong class="num">${c.before.values.length}<small>筆</small></strong></div>${icon('arrow')}<div><span>${own?'我的結果':'修改結果'}</span><strong class="num">${c.after.values.length}<small>筆</small></strong></div></div><div class="delta-summary"><strong>${summary}</strong><span>${delta===0?'結果列數不變':`比原版${delta>0?'增加':'減少'} ${Math.abs(delta)} 筆`}${schemaChanged?' · 欄位不同，不逐列判定增減':''}</span>${!schemaChanged&&(d.added.length||d.removed.length)?`<button class="text-button diff-filter" data-action="toggle-differences" aria-pressed="${state.diffOnly}">${state.diffOnly?'顯示全部結果':'只看差異資料'}</button>`:''}</div></div><div class="comparison-grid" style="--sql-lines:${Math.max(q.sql.split('\n').length,c.sql.split('\n').length)}">${[
+ $('#comparison').innerHTML=`<div class="comparison-summary"><div class="count-transition"><div><span>原版結果</span><strong class="num">${c.before.values.length}<small>筆</small></strong></div>${icon('arrow')}<div><span>${own?'我的結果':'修改結果'}</span><strong class="num">${c.after.values.length}<small>筆</small></strong></div></div><div class="delta-summary"><strong>${summary}</strong><span>${delta===0?'結果列數不變':`比原版${delta>0?'增加':'減少'} ${Math.abs(delta)} 筆`}${schemaChanged?' · 欄位不同，不逐列判定增減':''}</span>${!schemaChanged&&(d.added.length||d.removed.length)?`<button class="text-button diff-filter" data-action="toggle-differences" aria-pressed="${state.diffOnly}">${state.diffOnly?'顯示全部結果':'只看差異資料'}</button>`:''}</div></div><p class="comparison-method">以完整資料列比較；同一筆資料的儲存格改變時，呈現一列移除與一列新增。兩側表格可分別捲動。</p><div class="comparison-grid" style="--sql-lines:${Math.max(q.sql.split('\n').length,c.sql.split('\n').length)}">${[
  ['before',c.before,q.sql,c.sql,'原版 SQL',q.before,'removed',schemaChanged?[]:d.removed],
  ['after',c.after,c.sql,q.sql,own?'我的 SQL':'修改版 SQL',own?'目前編輯器內容':q.after,'added',schemaChanged?[]:d.added]
- ].map(([side,result,sql,other,label,desc,type,changes])=>`<section class="comparison-side" data-side="${side}" aria-label="${label}"><div class="compare-side-heading"><div><h3>${label}</h3><span>${desc}</span></div><button class="icon-button" data-action="copy-comparison" data-side="${side}" aria-label="複製${label}">${icon('copy')}</button></div>${sqlDiff(sql,other,type)}<div class="compare-result-heading"><h3>${side==='before'?'原版':'修改版'}結果</h3><span class="num">${state.diffOnly&&!schemaChanged?`差異 ${changes.length} / `:''}${result.values.length} 筆</span></div>${table(state.diffOnly&&!schemaChanged?{...result,values:changes}:result,{limit:2000,changes,changeType:type,label:`${label}的查詢結果`})}</section>`).join('')}</div><section class="comparison-reason"><div>${icon('book')}<h2>${own?'如何解讀這次比較？':'為什麼結果改變了？'}</h2></div><p>${own?schemaChanged?'你的 SELECT 欄位名稱或順序與原版不同。請先對齊欄位，再比較各列資料的內容。':d.orderChanged?'兩側資料列內容與重複次數一致，但排列順序不同。使用 ORDER BY 指定排序欄位，可以固定結果的排列順序。':!d.added.length&&!d.removed.length?'這次查詢回傳與原版相同的資料內容。SQL 寫法可能不同，結果仍可等價。你可以再修改 WHERE、JOIN 或 HAVING，檢查新的假設。':'比較以完整資料列為單位，保留重複列次數。新增與移除標記表示原版／修改版的差集；同一病例的儲存格改變，也會呈現一列移除與一列新增。請對照上方 SQL 變更行，確認篩選或聚合方式的影響。':q.why}</p><div class="reason-bottom"><span>${q.takeaway}</span><a class="button secondary" href="#query/${q.id}">回編輯器試試 ${icon('arrow')}</a></div></section>`;
+ ].map(([side,result,sql,other,label,desc,type,changes])=>`<section class="comparison-side" data-side="${side}" aria-label="${label}"><div class="compare-side-heading"><div><h3>${label}</h3><span>${desc}</span></div><button class="icon-button" data-action="copy-comparison" data-side="${side}" aria-label="複製${label}">${icon('copy')}</button></div>${sqlDiff(sql,other,type)}<div class="compare-result-heading"><h3>${side==='before'?'原版':own?'我的':'修改版'}結果</h3><span class="num">${showDifferences?`差異 ${changes.length} / `:''}${result.values.length} 筆</span></div>${table(showDifferences?{...result,values:changes}:result,{limit:2000,changes,changeType:type,label:`${label}的查詢結果`})}</section>`).join('')}</div><section class="comparison-reason"><div>${icon('book')}<h2>${own?'如何解讀這次比較？':'為什麼結果改變了？'}</h2></div><p>${own?schemaChanged?'你的 SELECT 欄位名稱或順序與原版不同。請先對齊欄位，再比較各列資料的內容。':d.orderChanged?'兩側資料列內容與重複次數一致，但排列順序不同。使用 ORDER BY 指定排序欄位，可以固定結果的排列順序。':!d.added.length&&!d.removed.length?'這次查詢回傳與原版相同的資料內容。SQL 寫法可能不同，結果仍可等價。你可以再修改 WHERE、JOIN 或 HAVING，檢查新的假設。':'比較以完整資料列為單位，保留重複列次數。新增與移除標記表示原版／修改版的差集；同一病例的儲存格改變，也會呈現一列移除與一列新增。請對照上方 SQL 變更行，確認篩選或聚合方式的影響。':q.why}</p><div class="reason-bottom"><span>${q.takeaway}</span><a class="button secondary" href="#query/${q.id}">回編輯器試試 ${icon('arrow')}</a></div></section>`;
 }
 async function loadComparison(){
  const q=getQuestion(),renderId=state.renderId,mode=state.compareMode;
@@ -142,7 +155,7 @@ async function loadComparison(){
   const before=await baseline(q),after=await execute(sql);
   if(state.renderId!==renderId||state.compareMode!==mode)return;
   state.comparison={before,after:after.result,sql};renderComparison();
- }catch(err){if(state.renderId===renderId)$('#comparison').innerHTML=`${errorBlock(err.message)}<a class="button secondary" href="#query/${q.id}">回到編輯器修正 ${icon('arrow')}</a>`;}
+ }catch(err){if(state.renderId===renderId&&state.compareMode===mode)$('#comparison').innerHTML=`${errorBlock(err.message)}<a class="button secondary" href="#query/${q.id}">回到編輯器修正 ${icon('arrow')}</a>`;}
 }
 function selectTable(name){
  if(!schema.some(t=>t.name===name))return;
@@ -204,4 +217,4 @@ document.addEventListener('keydown',ev=>{
 compactNavigation.addEventListener('change',syncNavigation);
 window.addEventListener('hashchange',renderRoute);
 renderRoute();
-ready().then(()=>{state.ready=true;$('#db-status').innerHTML='<span class="status-dot"></span>SQLite 已就緒';if($('#run-button'))$('#run-button').disabled=false;}).catch(err=>{$('#db-status').innerHTML='<span class="status-dot failed"></span>資料庫載入失敗';toast(err.message);});
+ready().then(()=>{state.ready=true;$('#db-status').innerHTML='<span class="status-dot"></span>SQLite 已就緒';syncRunButton();}).catch(err=>{$('#db-status').innerHTML='<span class="status-dot failed"></span>資料庫載入失敗';toast(err.message);});

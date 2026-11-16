@@ -15,7 +15,7 @@ export function csv(result) {
 }
 
 export function explainError(message) {
-  if(/no such table/i.test(message))return '資料表不存在。可到「資料庫設計」確認拼字，或使用左側的九張資料表。';
+  if(/no such table/i.test(message))return '資料表不存在。請到「資料庫設計」的資料表清單確認名稱與拼字。';
   if(/no such column/i.test(message))return '找不到欄位。請確認欄位名稱及別名；JOIN 後可以加上表格別名。';
   if(/syntax error|incomplete input|unrecognized token/i.test(message))return 'SQL 語法未完成或有拼字錯誤。請檢查 SELECT、逗號、引號、括號，以及關鍵字的順序。';
   if(/ambiguous/i.test(message))return '這個欄位同時存在於多張表。請加上表格別名，例如 c.case_id。';

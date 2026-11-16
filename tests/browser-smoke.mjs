@@ -1,6 +1,8 @@
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
-import { mkdir } from 'node:fs/promises';
+import { mkdir,readFile } from 'node:fs/promises';
+import initSqlJs from 'sql.js';
+import {schema,totals} from '../src/data.js';
 import { questions } from '../src/queries.js';
 
 const url=process.env.TEST_URL??'http://127.0.0.1:4173/';
@@ -23,6 +25,13 @@ try {
  await page.getByRole('button',{name:'查詢這張表',exact:true}).click();
  await page.getByRole('heading',{name:'探索病例 × 症狀資料'}).waitFor();
  await run();assert.match(await page.locator('#result-status').innerText(),/144 筆/);
+ for(const t of schema){
+  await go(`database/${t.name}`);
+  await page.getByRole('tab',{name:/欄位說明/}).click();
+  assert.equal(await page.locator('#dictionary tbody tr').count(),t.fields.length);
+  await page.getByRole('tab',{name:/樣本資料/}).click();
+  assert.equal(await page.locator('#dictionary tbody tr').count(),Math.min(10,totals[t.name]));
+ }
  for(const q of questions){
   await go(`query/${q.id}`);
   await run();
@@ -36,6 +45,23 @@ try {
   const counts=await page.locator('.count-transition strong').allTextContents();
   assert.deepEqual(counts,[`${q.expected}筆`,`${q.modified}筆`]);
  }
+ await go('query/Q01');
+ assert.match(await page.locator('#result-status').innerText(),/26 筆/);
+ await page.getByRole('tab',{name:/預期結果/}).click();
+ await page.locator('#results tbody tr').first().waitFor();
+ assert.equal(await page.locator('#result-status').innerText(),'預期 14 筆');
+ await page.getByRole('tab',{name:'實際結果',exact:true}).click();
+ assert.match(await page.locator('#result-status').innerText(),/26 筆/);
+ await go('query/Q10');await page.getByRole('button',{name:'還原',exact:true}).click();
+ await go('compare/Q10');await page.locator('.comparison-grid').waitFor();
+ await page.getByRole('button',{name:'只看差異資料',exact:true}).click();
+ assert.equal(await page.locator('.comparison-side tbody tr').count(),4);
+ await page.getByRole('button',{name:'我的 SQL',exact:true}).click();
+ await page.getByText('資料內容相同',{exact:true}).waitFor();
+ assert.equal(await page.locator('.comparison-side tbody tr').count(),20);
+ assert.equal(await page.locator('.comparison-side .empty-cell').count(),0);
+ await page.getByRole('button',{name:'修改範例',exact:true}).click();
+ await page.getByRole('button',{name:'顯示全部結果',exact:true}).click();
  await go('query/Q01');
  await setSQL('SELEC * FROM clinical_case;');await run();
  assert.match(await page.locator('.error-state').innerText(),/syntax error/);
@@ -54,12 +80,18 @@ try {
  await page.getByRole('tab',{name:'實際結果',exact:true}).click();
  const downloadPromise=page.waitForEvent('download');
  await page.getByRole('button',{name:'CSV',exact:true}).click();
- assert.match((await downloadPromise).suggestedFilename(),/\.csv$/);
+ const csvFile=await downloadPromise;
+ assert.match(csvFile.suggestedFilename(),/\.csv$/);
+ assert.match(await readFile(await csvFile.path(),'utf8'),/"total"\r\n"48"/);
  await page.getByRole('button',{name:'還原',exact:true}).click();
  await run();
  const dbPromise=page.waitForEvent('download');
  await page.getByRole('button',{name:'下載 SQLite 資料庫'}).click();
- assert.equal((await dbPromise).suggestedFilename(),'tcm-teaching.sqlite');
+ const dbFile=await dbPromise;
+ assert.equal(dbFile.suggestedFilename(),'tcm-teaching.sqlite');
+ const SQL=await initSqlJs(),downloadedDb=new SQL.Database(await readFile(await dbFile.path()));
+ assert.equal(downloadedDb.exec('SELECT COUNT(*) FROM clinical_case')[0].values[0][0],48);
+ assert.deepEqual(downloadedDb.exec('PRAGMA foreign_key_check'),[]);downloadedDb.close();
  await page.getByRole('button',{name:'資料來源與說明'}).click();
  assert.equal(await page.locator('dialog').evaluate(el=>el.open),true);
  await page.keyboard.press('Escape');

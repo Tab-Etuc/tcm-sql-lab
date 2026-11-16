@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "docs": "node scripts/generate-docs.mjs",
+    "build": "npm run docs && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test tests/database.test.mjs"
   },
